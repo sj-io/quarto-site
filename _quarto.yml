@@ -2,8 +2,9 @@ project:
   type: website
 
 website:
-  title: "quarto-site"
+  title: "Memphis Census"
   navbar:
+    background: dark
     left:
       - href: index.qmd
         text: Home
