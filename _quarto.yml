@@ -3,12 +3,12 @@ project:
 
 website:
   title: "Memphis Census"
-  navbar:
-    background: dark
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  sidebar: 
+      style: "docked"
+      background: dark
+      contents: 
+        - index.qmd
+        - section: "Basics"
 
 format:
   html:
