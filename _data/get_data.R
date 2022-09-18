@@ -17,7 +17,7 @@ acs1 <- map_dfr(y_ACS1, ~ {
   get_acs(
     geography = "place",
     state = "TN",
-    variables = "B25071_001",
+    variables = "B25092_001",
     year = .x,
     survey = "acs1"
   )
@@ -26,7 +26,6 @@ acs1 <- map_dfr(y_ACS1, ~ {
 
 acs <- read_csv("_data/acs1_single.csv")
 acs <- rbind(acs, acs1)
-
 write_csv(acs, "_data/acs1_single.csv")
 
 # Adjust for inflation
@@ -46,7 +45,8 @@ inflation <- PCEPI %>%
            DATE > "2004-06-01" &
            !str_detect(DATE, "202(0|2)")) %>% 
   bind_cols(CCPIU) %>% 
-  select(DATE, PCEPI, CCPIU)
+  select(DATE, PCEPI, CCPIU) %>% 
+  mutate(yr = y_ACS1)
 
 write_csv(inflation, "_data/inflation.csv")
 

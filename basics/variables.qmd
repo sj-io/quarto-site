@@ -23,7 +23,8 @@ inflation <- read_csv("../_data/inflation.csv")
 a1 <- acs1 %>% 
   filter(variable == "B25077_001")
 
-a2 <- bind_cols(a1, inflation) %>% 
+a2 <- a1 %>% 
+  left_join(inflation) %>% 
   mutate(inflate = max(PCEPI),
          inCPI = max(CCPIU),
          e2 = (estimate * inflate) / PCEPI,
@@ -42,19 +43,51 @@ a2 %>% ggplot(aes(yr, e3, group = 1)) +
        caption = "ACS 1-Year, 2005-2019, 2021 (B25077)\nInflation adjusted using C-CPI-U")
 ```
 
-## Median Gross Rent as a Percentage of Household Income
+## Median Rent
 ```{r}
-graphi <- acs1 %>% 
-  filter(variable == "B25071_001")
+med_rent <- acs1 %>% 
+  filter(str_detect(variable, "B250(58|64)_001"))
 
-graphi %>% ggplot(aes(yr, estimate, group = 1)) +
+mr <- med_rent %>% 
+  left_join(inflation) %>% 
+  mutate(inflate = max(PCEPI),
+         inCPI = max(CCPIU),
+         e2 = (estimate * inflate) / PCEPI,
+         e3 = (estimate * inCPI) / CCPIU,
+         variable = recode(variable, 
+                           "B25058_001" = "Contract Rent",
+                           "B25064_001" = "Gross Rent")) %>% 
+  select(variable, yr, estimate, e2, e3)
+
+mr %>% ggplot(aes(yr, e3, color = variable)) +
   geom_line() +
   geom_point() +
   scale_x_continuous() +
-  scale_y_continuous() +
+  scale_y_continuous(labels = scales::label_dollar()) +
   theme_minimal() +
-  labs(x = "", y = "", 
-       title = "Median Gross Rent as a Percentage of Household Income in Memphis, TN",
-       caption = "ACS 1-Year, 2005-2019, 2021 (B25071)")
+  labs(x = "", y = "", color = "",
+       title = "Median Rent in Memphis, TN",
+       subtitle = "2021 Inflation-Adjusted Dollars",
+       caption = "ACS 1-Year, 2005-2019, 2021 (B25058 & B25064)\nInflation adjusted using C-CPI-U")
+```
+
+## Median Housing Costs as a Percentage of Household Income
+```{r}
+graphi <- acs1 %>% 
+  filter(str_detect(variable, "B250(71|92)_001")) %>% 
+  mutate(variable = recode(variable,
+                           "B25071_001" = "Renters",
+                           "B25092_001" = "Owners"))
+
+graphi %>% ggplot(aes(yr, estimate, color = variable)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous() +
+  scale_y_continuous(labels = scales::label_percent(scale = 1)) +
+  theme_minimal() +
+  labs(x = "", y = "", color = "",
+       title = "Median Housing Costs as a Percentage of Household Income",
+       subtitle = "Memphis, TN",
+       caption = "ACS 1-Year, 2005-2019, 2021 (B25071 & B25092)")
 ```
 
