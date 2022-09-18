@@ -5,5 +5,33 @@
     "title": "Welcome",
     "section": "",
     "text": "This is a website to showcase Memphis Census data."
+  },
+  {
+    "objectID": "basics/variables.html",
+    "href": "basics/variables.html",
+    "title": "Variables Overview",
+    "section": "",
+    "text": "Rows: 36400 Columns: 3\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (3): name, label, concept\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+  },
+  {
+    "objectID": "basics/variables.html#median-home-value",
+    "href": "basics/variables.html#median-home-value",
+    "title": "Variables Overview",
+    "section": "Median Home Value",
+    "text": "Median Home Value"
+  },
+  {
+    "objectID": "basics/variables.html#median-value",
+    "href": "basics/variables.html#median-value",
+    "title": "Variables Overview",
+    "section": "Median Value",
+    "text": "Median Value"
+  },
+  {
+    "objectID": "basics/variables.html#median-gross-rent-as-a-percentage-of-household-income",
+    "href": "basics/variables.html#median-gross-rent-as-a-percentage-of-household-income",
+    "title": "Variables Overview",
+    "section": "Median Gross Rent as a Percentage of Household Income",
+    "text": "Median Gross Rent as a Percentage of Household Income"
   }
 ]

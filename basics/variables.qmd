@@ -1,0 +1,60 @@
+---
+title: "Variables Overview"
+execute: 
+  echo: false
+  warning: false
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+v_acs1_21 <- read_csv("../_data/v_acs1.csv")
+acs1 <- read_csv("../_data/acs1_single.csv") %>% 
+  mutate(yr = as.numeric(yr))
+inflation <- read_csv("../_data/inflation.csv")
+```
+
+## Median Value
+
+```{r}
+# B25077_001 Median Value
+a1 <- acs1 %>% 
+  filter(variable == "B25077_001")
+
+a2 <- bind_cols(a1, inflation) %>% 
+  mutate(inflate = max(PCEPI),
+         inCPI = max(CCPIU),
+         e2 = (estimate * inflate) / PCEPI,
+         e3 = (estimate * inCPI) / CCPIU) %>% 
+  select(yr, estimate, e2, e3)
+
+a2 %>% ggplot(aes(yr, e3, group = 1)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous() +
+  scale_y_continuous(labels = scales::label_dollar(scale = .001, suffix = "K")) +
+  theme_minimal() +
+  labs(x = "", y = "", 
+       title = "Median Home Value in Memphis, TN",
+       subtitle = "2021 Inflation-Adjusted Dollars",
+       caption = "ACS 1-Year, 2005-2019, 2021 (B25077)\nInflation adjusted using C-CPI-U")
+```
+
+## Median Gross Rent as a Percentage of Household Income
+```{r}
+graphi <- acs1 %>% 
+  filter(variable == "B25071_001")
+
+graphi %>% ggplot(aes(yr, estimate, group = 1)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous() +
+  scale_y_continuous() +
+  theme_minimal() +
+  labs(x = "", y = "", 
+       title = "Median Gross Rent as a Percentage of Household Income in Memphis, TN",
+       caption = "ACS 1-Year, 2005-2019, 2021 (B25071)")
+```
+
