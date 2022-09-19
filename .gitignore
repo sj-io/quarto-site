@@ -38,4 +38,7 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
+# CSV files
+_data/v_acs1/
+
 /.quarto/
