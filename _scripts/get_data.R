@@ -32,13 +32,13 @@ write_csv(acs1_single_update, "_data/acs1_single.csv")
 
 rm(acs1_single, acs1_single_update)
 
-# Multiple variables
+# Multiple variables, all years
 acs1_multiple <- map_dfr(y_ACS1, ~ {
   get_acs(
     geography = "place",
     state = "TN",
-    table = "B25130",
-    summary_var = "B25130_001",
+    table = "B25006",
+    summary_var = "B25006_001",
     year = .x,
     survey = "acs1"
   )

@@ -1,5 +1,5 @@
 ---
-title: "Housing Costs"
+title: "Value & Costs"
 execute: 
   echo: false
   warning: false
@@ -67,7 +67,8 @@ mr %>% ggplot(aes(yr, e3, color = variable)) +
   labs(x = "", y = "", color = "",
        title = "Median Rent in Memphis, TN",
        subtitle = "2021 Inflation-Adjusted Dollars",
-       caption = "ACS 1-Year, 2005-2019, 2021 (B25058 & B25064)\nInflation adjusted using C-CPI-U")
+       caption = "ACS 1-Year, 2005-2019, 2021 (B25058 & B25064)\nInflation adjusted using C-CPI-U") +
+  theme(legend.position = "bottom")
 ```
 
 ## Median Housing Costs as a Percentage of Household Income
@@ -87,6 +88,7 @@ graphi %>% ggplot(aes(yr, estimate, color = variable)) +
   labs(x = "", y = "", color = "",
        title = "Median Housing Costs as a Percentage of Household Income",
        subtitle = "Memphis, TN",
-       caption = "ACS 1-Year, 2005-2019, 2021 (B25071 & B25092)")
+       caption = "ACS 1-Year, 2005-2019, 2021 (B25071 & B25092)") +
+  theme(legend.position = "bottom")
 ```
 

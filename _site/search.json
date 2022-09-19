@@ -79,21 +79,21 @@
   {
     "objectID": "housing/hsg-costs.html#median-value",
     "href": "housing/hsg-costs.html#median-value",
-    "title": "Housing Costs",
+    "title": "Value & Costs",
     "section": "Median Value",
     "text": "Median Value"
   },
   {
     "objectID": "housing/hsg-costs.html#median-rent",
     "href": "housing/hsg-costs.html#median-rent",
-    "title": "Housing Costs",
+    "title": "Value & Costs",
     "section": "Median Rent",
     "text": "Median Rent"
   },
   {
     "objectID": "housing/hsg-costs.html#median-housing-costs-as-a-percentage-of-household-income",
     "href": "housing/hsg-costs.html#median-housing-costs-as-a-percentage-of-household-income",
-    "title": "Housing Costs",
+    "title": "Value & Costs",
     "section": "Median Housing Costs as a Percentage of Household Income",
     "text": "Median Housing Costs as a Percentage of Household Income"
   },
@@ -107,7 +107,7 @@
   {
     "objectID": "housing/hsg-units.html#housing-units",
     "href": "housing/hsg-units.html#housing-units",
-    "title": "Housing Units",
+    "title": "Units & Vacancy",
     "section": "Housing Units",
     "text": "Housing Units"
   },
@@ -135,8 +135,71 @@
   {
     "objectID": "housing/hsg-units.html#vacancy",
     "href": "housing/hsg-units.html#vacancy",
-    "title": "Housing Units",
+    "title": "Units & Vacancy",
     "section": "Vacancy",
     "text": "Vacancy\n\nVacancy Rate\n\n\n\n\n\n\n\nVacancy Status\n\n\n\n\n\n\n\n\n\n\n\n\nCurrent Residence Elsewhere\n\n\n\n\n\n\n\nOther Vacancy Status\n\n\n\n\n\n\n\nVacancy Duration"
+  },
+  {
+    "objectID": "housing/population.html#households",
+    "href": "housing/population.html#households",
+    "title": "Population",
+    "section": "Households",
+    "text": "Households"
+  },
+  {
+    "objectID": "housing/population.html#total-population-in-occupied-housing-units",
+    "href": "housing/population.html#total-population-in-occupied-housing-units",
+    "title": "Population",
+    "section": "Total Population in Occupied Housing Units",
+    "text": "Total Population in Occupied Housing Units"
+  },
+  {
+    "objectID": "housing/tenure.html#tenure",
+    "href": "housing/tenure.html#tenure",
+    "title": "Tenure",
+    "section": "Tenure",
+    "text": "Tenure"
+  },
+  {
+    "objectID": "housing/tenure.html#total-population-in-occupied-housing-units-by-tenure",
+    "href": "housing/tenure.html#total-population-in-occupied-housing-units-by-tenure",
+    "title": "Tenure",
+    "section": "Total Population in Occupied Housing Units by Tenure",
+    "text": "Total Population in Occupied Housing Units by Tenure"
+  },
+  {
+    "objectID": "housing/population.html#average-household-size",
+    "href": "housing/population.html#average-household-size",
+    "title": "Population",
+    "section": "Average Household Size",
+    "text": "Average Household Size"
+  },
+  {
+    "objectID": "housing/tenure.html#tenure-of-households",
+    "href": "housing/tenure.html#tenure-of-households",
+    "title": "Tenure",
+    "section": "Tenure of Households",
+    "text": "Tenure of Households"
+  },
+  {
+    "objectID": "housing/tenure.html#average-household-size-by-tenure",
+    "href": "housing/tenure.html#average-household-size-by-tenure",
+    "title": "Tenure",
+    "section": "Average Household Size by Tenure",
+    "text": "Average Household Size by Tenure"
+  },
+  {
+    "objectID": "housing/tenure.html#tenure-of-population-households",
+    "href": "housing/tenure.html#tenure-of-population-households",
+    "title": "Tenure",
+    "section": "Tenure of Population & Households",
+    "text": "Tenure of Population & Households\n\nTenure of Households\n\n\n\n\n\n\n\nTotal Population in Occupied Housing Units by Tenure\n\n\n\n\n\n\n\nAverage Household Size by Tenure"
+  },
+  {
+    "objectID": "housing/population.html#race-of-householder",
+    "href": "housing/population.html#race-of-householder",
+    "title": "Population",
+    "section": "Race of Householder",
+    "text": "Race of Householder"
   }
 ]

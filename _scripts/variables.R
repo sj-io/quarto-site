@@ -28,7 +28,7 @@ v_hsg_long <- v_acs1_21 %>%
 # Playing around with variables
 # Top-level variables
 v_top <- v_acs1_21 %>% 
-  filter(str_ends(name, "_001"))
+  filter(str_ends(name, "_001") & !str_detect(concept, "AGGREGATE|ALLOCATION|UNWEIGHTED"))
 
 # Main variables
 v_short <- v_top %>% 

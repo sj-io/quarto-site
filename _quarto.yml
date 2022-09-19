@@ -11,7 +11,9 @@ website:
         - section: "Housing"
           contents: 
             - housing/hsg-units.qmd
+            - housing/population.qmd
             - housing/hsg-costs.qmd
+            - housing/tenure.qmd
 
 format:
   html:
