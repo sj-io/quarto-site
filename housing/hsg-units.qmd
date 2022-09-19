@@ -8,13 +8,16 @@ execute:
 ```{r}
 library(tidyverse)
 
-acs1 <- read_csv("../_data/acs1_single.csv")
+v_labs <- read_csv("../_data/v_labs.csv")
+acs1_single <- read_csv("../_data/acs1_single.csv")
+acs1_multi <- read_csv("../_data/acs1_multi.csv") %>% 
+  left_join(v_labs, by = c("variable" = "name"))
 ```
 
-# Housing Units
+## Housing Units
 
 ```{r}
-hu <- acs1 %>% 
+hu <- acs1_single %>% 
   filter(variable == "B25001_001")
 
 hu %>% ggplot(aes(yr, estimate, group = 1)) +
@@ -27,5 +30,107 @@ hu %>% ggplot(aes(yr, estimate, group = 1)) +
        title = "Number of Housing Units",
        subtitle = "Memphis, TN (2005-2021)",
        caption = "ACS 1-Year, 2005-2019, 2021 (B25001)")
+```
+
+## Vacancy
+
+### Vacancy Rate
+
+```{r}
+vac <- acs1_multi %>% 
+  filter(str_detect(variable, "B25002") &
+           variable == "B25002_003") %>% 
+  mutate(pct = estimate / summary_est)
+
+vac %>% ggplot(aes(x = yr, y = pct)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous() +
+  scale_y_continuous(labels = scales::label_percent(scale = 100)) +
+  theme_minimal() +
+  labs(x = "", y = "", 
+       title = "Vacancy Rate",
+       subtitle = "Memphis, TN (2005-2021)",
+       caption = "ACS 1-Year, 2005-2019, 2021 (B25002_003)")
+```
+
+### Vacancy Status
+
+```{r}
+vs <- acs1_multi %>% 
+  filter(str_detect(variable, "B25004(?!_001)")) %>% 
+  group_by(yr) %>% 
+  arrange(estimate) %>% 
+  ungroup() %>% 
+  mutate(lab = fct_inorder(lab))
+
+
+vs %>% ggplot(aes(yr, estimate, fill = lab)) +
+  geom_col() +
+  scale_x_continuous() +
+  scale_y_continuous(labels = scales::label_number(scale = .001, suffix = "K")) +
+  scale_fill_brewer(palette = "Set2", direction = -1, 
+                    labels = function(fill) str_wrap(fill, width = 20)) +
+  theme_minimal() +
+  labs(x = "", y = "", fill = "",
+       title = "Vacancy Status",
+       subtitle = "Memphis, TN (2005-2021)",
+       caption = "ACS 1-Year, 2005-2019, 2021 (B25004)")
+```
+
+```{r}
+vs %>% ggplot(aes(yr, estimate, fill = lab)) +
+  geom_col(position = "fill") +
+  scale_x_continuous() +
+  scale_y_continuous(labels = scales::label_percent(scale = 100)) +
+  scale_fill_brewer(palette = "Set2", direction = -1, 
+                    labels = function(fill) str_wrap(fill, width = 20)) +
+  theme_minimal() +
+  labs(x = "", y = "", fill = "",
+       title = "Vacancy Status (Proportion)",
+       subtitle = "Memphis, TN (2005-2021)",
+       caption = "ACS 1-Year, 2005-2019, 2021 (B25004)")
+```
+
+### Other Vacancy Status
+
+```{r}
+ovs <- acs1_multi %>% 
+  filter(str_detect(variable, "B25130(?!_001)"))
+
+ovs %>% ggplot(aes(y = reorder(lab, estimate), 
+                   x = estimate)) +
+  geom_col() +
+  scale_x_continuous(labels = scales::label_number(scale = .001, suffix = "K")) +
+  scale_y_discrete() +
+  theme_minimal() +
+  labs(x = "", y = "", 
+       title = "Other Vacancy Status",
+       subtitle = "Memphis, TN (2021)",
+       caption = "ACS 1-Year, 2021 (B25130)")
+```
+
+### Current Residence Elsewhere
+
+```{r}
+cre <- acs1_multi %>% 
+  filter(str_detect(variable, "B25005(?!_001)")) %>% 
+  group_by(yr) %>% 
+  arrange(estimate) %>% 
+  ungroup() %>% 
+  mutate(lab = fct_inorder(lab))
+
+
+cre %>% ggplot(aes(yr, estimate, fill = lab)) +
+  geom_col() +
+  scale_x_continuous() +
+  scale_y_continuous(labels = scales::label_number(scale = .001, suffix = "K")) +
+  scale_fill_brewer(palette = "Set2", direction = -1, 
+                    labels = function(fill) str_wrap(fill, width = 20)) +
+  theme_minimal() +
+  labs(x = "", y = "", fill = "",
+       title = "Vacant -- Current Residence Elsewhere",
+       subtitle = "Memphis, TN (2005-2021)",
+       caption = "ACS 1-Year, 2005-2019, 2021 (B25005)")
 ```
 

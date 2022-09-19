@@ -103,5 +103,40 @@
     "title": "Housing Units",
     "section": "",
     "text": "Housing Units"
+  },
+  {
+    "objectID": "housing/hsg-units.html#housing-units",
+    "href": "housing/hsg-units.html#housing-units",
+    "title": "Housing Units",
+    "section": "Housing Units",
+    "text": "Housing Units"
+  },
+  {
+    "objectID": "housing/hsg-units.html#occupancy-status",
+    "href": "housing/hsg-units.html#occupancy-status",
+    "title": "Housing Units",
+    "section": "Occupancy Status",
+    "text": "Occupancy Status"
+  },
+  {
+    "objectID": "housing/hsg-units.html#vacancy-rate",
+    "href": "housing/hsg-units.html#vacancy-rate",
+    "title": "Housing Units",
+    "section": "Vacancy Rate",
+    "text": "Vacancy Rate"
+  },
+  {
+    "objectID": "housing/hsg-units.html#vacancy-status",
+    "href": "housing/hsg-units.html#vacancy-status",
+    "title": "Housing Units",
+    "section": "Vacancy Status",
+    "text": "Vacancy Status"
+  },
+  {
+    "objectID": "housing/hsg-units.html#vacancy",
+    "href": "housing/hsg-units.html#vacancy",
+    "title": "Housing Units",
+    "section": "Vacancy",
+    "text": "Vacancy\n\nVacancy Rate\n\n\n\n\n\n\n\nVacancy Status\n\n\n\n\n\n\n\n\n\n\n\n\nOther Vacancy Status\n\n\n\n\n\n\n\nCurrent Residence Elsewhere"
   }
 ]

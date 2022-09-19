@@ -6,7 +6,7 @@ library(tidycensus)
 v_cat <- read_csv("_data/v_acs_categories.csv")
 
 # Get census variables
-v_acs1_21 <- read_csv("_data/v_acs1.csv")
+v_acs1_21 <- read_csv("_data/v_acs1_21.csv")
 # v_acs1_21 <- load_variables(2021, "acs1")
 
 # Join
@@ -43,11 +43,25 @@ v_hsg_short <- v_short %>%
   filter(str_detect(category, "Housing"))
 
 # To-do
-v_done <- read_csv("_data/acs1_single.csv") %>% distinct(variable)
+v_done_s <- read_csv("_data/acs1_single.csv") %>% 
+  distinct(variable)
+v_done <- read_csv("_data/acs1_multi.csv") %>% 
+  distinct(variable) %>% 
+  rbind(v_done_s)
+
 v_todo_short <- v_hsg_short %>% 
   anti_join(v_done, by = c("name" = "variable"))
 v_todo_long <- v_hsg_long %>% 
   anti_join(v_done, by = c("name" = "variable"))
+
+# Get labels
+v_labs <- v_hsg_long %>% 
+  mutate(lab = str_remove_all(label, ":"),
+         lab = str_remove_all(lab, ".*(?=!!)"),
+         lab = str_remove_all(lab, "!!")) %>% 
+  select(name, lab)
+
+write_csv(v_labs, "_data/v_labs.csv")
 
 # Over cleaning
 t1 <- v_acs1_21 %>% 

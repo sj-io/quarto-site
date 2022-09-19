@@ -10,7 +10,7 @@ library(tidyverse)
 ```
 
 ```{r}
-v_acs1_21 <- read_csv("../_data/v_acs1.csv")
+v_acs1_21 <- read_csv("../_data/v_acs1_21.csv")
 acs1 <- read_csv("../_data/acs1_single.csv")
 inflation <- read_csv("../_data/inflation/inflation.csv")
 ```

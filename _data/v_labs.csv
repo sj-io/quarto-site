@@ -1,0 +1,2324 @@
+name,lab
+B25001_001,Total
+B25002_001,Total
+B25002_002,Occupied
+B25002_003,Vacant
+B25003_001,Total
+B25003_002,Owner occupied
+B25003_003,Renter occupied
+B25004_001,Total
+B25004_002,For rent
+B25004_003,"Rented, not occupied"
+B25004_004,For sale only
+B25004_005,"Sold, not occupied"
+B25004_006,"For seasonal, recreational, or occasional use"
+B25004_007,For migrant workers
+B25004_008,Other vacant
+B25005_001,Total
+B25005_002,Vacant - current residence elsewhere
+B25005_003,All other vacant units
+B25006_001,Total
+B25006_002,Householder who is White alone
+B25006_003,Householder who is Black or African American alone
+B25006_004,Householder who is American Indian and Alaska Native alone
+B25006_005,Householder who is Asian alone
+B25006_006,Householder who is Native Hawaiian and Other Pacific Islander alone
+B25006_007,Householder who is Some other race alone
+B25006_008,Householder who is Two or more races
+B25006_009,Householder who is Two races including Some other race
+B25006_010,"Householder who is Two races excluding Some other race, and three or more races"
+B25007_001,Total
+B25007_002,Owner occupied
+B25007_003,Householder 15 to 24 years
+B25007_004,Householder 25 to 34 years
+B25007_005,Householder 35 to 44 years
+B25007_006,Householder 45 to 54 years
+B25007_007,Householder 55 to 59 years
+B25007_008,Householder 60 to 64 years
+B25007_009,Householder 65 to 74 years
+B25007_010,Householder 75 to 84 years
+B25007_011,Householder 85 years and over
+B25007_012,Renter occupied
+B25007_013,Householder 15 to 24 years
+B25007_014,Householder 25 to 34 years
+B25007_015,Householder 35 to 44 years
+B25007_016,Householder 45 to 54 years
+B25007_017,Householder 55 to 59 years
+B25007_018,Householder 60 to 64 years
+B25007_019,Householder 65 to 74 years
+B25007_020,Householder 75 to 84 years
+B25007_021,Householder 85 years and over
+B25008_001,Total
+B25008_002,Owner occupied
+B25008_003,Renter occupied
+B25009_001,Total
+B25009_002,Owner occupied
+B25009_003,1-person household
+B25009_004,2-person household
+B25009_005,3-person household
+B25009_006,4-person household
+B25009_007,5-person household
+B25009_008,6-person household
+B25009_009,7-or-more person household
+B25009_010,Renter occupied
+B25009_011,1-person household
+B25009_012,2-person household
+B25009_013,3-person household
+B25009_014,4-person household
+B25009_015,5-person household
+B25009_016,6-person household
+B25009_017,7-or-more person household
+B25010_001,Total
+B25010_002,Owner occupied
+B25010_003,Renter occupied
+B25011_001,Total
+B25011_002,Owner occupied
+B25011_003,Family households
+B25011_004,Married-couple family
+B25011_005,Householder 15 to 34 years
+B25011_006,Householder 35 to 64 years
+B25011_007,Householder 65 years and over
+B25011_008,Other family
+B25011_009,"Male householder, no spouse present"
+B25011_010,Householder 15 to 34 years
+B25011_011,Householder 35 to 64 years
+B25011_012,Householder 65 years and over
+B25011_013,"Female householder, no spouse present"
+B25011_014,Householder 15 to 34 years
+B25011_015,Householder 35 to 64 years
+B25011_016,Householder 65 years and over
+B25011_017,Nonfamily households
+B25011_018,Householder living alone
+B25011_019,Householder 15 to 34 years
+B25011_020,Householder 35 to 64 years
+B25011_021,Householder 65 years and over
+B25011_022,Householder not living alone
+B25011_023,Householder 15 to 34 years
+B25011_024,Householder 35 to 64 years
+B25011_025,Householder 65 years and over
+B25011_026,Renter occupied
+B25011_027,Family households
+B25011_028,Married-couple family
+B25011_029,Householder 15 to 34 years
+B25011_030,Householder 35 to 64 years
+B25011_031,Householder 65 years and over
+B25011_032,Other family
+B25011_033,"Male householder, no spouse present"
+B25011_034,Householder 15 to 34 years
+B25011_035,Householder 35 to 64 years
+B25011_036,Householder 65 years and over
+B25011_037,"Female householder, no spouse present"
+B25011_038,Householder 15 to 34 years
+B25011_039,Householder 35 to 64 years
+B25011_040,Householder 65 years and over
+B25011_041,Nonfamily households
+B25011_042,Householder living alone
+B25011_043,Householder 15 to 34 years
+B25011_044,Householder 35 to 64 years
+B25011_045,Householder 65 years and over
+B25011_046,Householder not living alone
+B25011_047,Householder 15 to 34 years
+B25011_048,Householder 35 to 64 years
+B25011_049,Householder 65 years and over
+B25012_001,Total
+B25012_002,Owner-occupied housing units
+B25012_003,With related children of the householder under 18
+B25012_004,With own children of the householder under 18
+B25012_005,Under 6 years only
+B25012_006,Under 6 years and 6 to 17 years
+B25012_007,6 to 17 years
+B25012_008,No own children of the householder under 18
+B25012_009,No related children of the householder under 18
+B25012_010,Renter-occupied housing units
+B25012_011,With related children of the householder under 18
+B25012_012,With own children of the householder under 18
+B25012_013,Under 6 years only
+B25012_014,Under 6 years and 6 to 17 years
+B25012_015,6 to 17 years
+B25012_016,No own children of the householder under 18
+B25012_017,No related children of the householder under 18
+B25013_001,Total
+B25013_002,Owner-occupied housing units
+B25013_003,Less than high school graduate
+B25013_004,High school graduate (including equivalency)
+B25013_005,Some college or associate's degree
+B25013_006,Bachelor's degree or higher
+B25013_007,Renter-occupied housing units
+B25013_008,Less than high school graduate
+B25013_009,High school graduate (including equivalency)
+B25013_010,Some college or associate's degree
+B25013_011,Bachelor's degree or higher
+B25014_001,Total
+B25014_002,Owner occupied
+B25014_003,0.50 or less occupants per room
+B25014_004,0.51 to 1.00 occupants per room
+B25014_005,1.01 to 1.50 occupants per room
+B25014_006,1.51 to 2.00 occupants per room
+B25014_007,2.01 or more occupants per room
+B25014_008,Renter occupied
+B25014_009,0.50 or less occupants per room
+B25014_010,0.51 to 1.00 occupants per room
+B25014_011,1.01 to 1.50 occupants per room
+B25014_012,1.51 to 2.00 occupants per room
+B25014_013,2.01 or more occupants per room
+B25015_001,Total
+B25015_002,Owner occupied
+B25015_003,Householder 15 to 34 years
+B25015_004,1.00 or less occupants per room
+B25015_005,1.01 to 1.50 occupants per room
+B25015_006,1.51 or more occupants per room
+B25015_007,Householder 35 to 64 years
+B25015_008,1.00 or less occupants per room
+B25015_009,1.01 to 1.50 occupants per room
+B25015_010,1.51 or more occupants per room
+B25015_011,Householder 65 years and over
+B25015_012,1.00 or less occupants per room
+B25015_013,1.01 to 1.50 occupants per room
+B25015_014,1.51 or more occupants per room
+B25015_015,Renter occupied
+B25015_016,Householder 15 to 34 years
+B25015_017,1.00 or less occupants per room
+B25015_018,1.01 to 1.50 occupants per room
+B25015_019,1.51 or more occupants per room
+B25015_020,Householder 35 to 64 years
+B25015_021,1.00 or less occupants per room
+B25015_022,1.01 to 1.50 occupants per room
+B25015_023,1.51 or more occupants per room
+B25015_024,Householder 65 years and over
+B25015_025,1.00 or less occupants per room
+B25015_026,1.01 to 1.50 occupants per room
+B25015_027,1.51 or more occupants per room
+B25016_001,Total
+B25016_002,Owner occupied
+B25016_003,Complete plumbing facilities
+B25016_004,1.00 or less occupants per room
+B25016_005,1.01 to 1.50 occupants per room
+B25016_006,1.51 or more occupants per room
+B25016_007,Lacking complete plumbing facilities
+B25016_008,1.00 or less occupants per room
+B25016_009,1.01 to 1.50 occupants per room
+B25016_010,1.51 or more occupants per room
+B25016_011,Renter occupied
+B25016_012,Complete plumbing facilities
+B25016_013,1.00 or less occupants per room
+B25016_014,1.01 to 1.50 occupants per room
+B25016_015,1.51 or more occupants per room
+B25016_016,Lacking complete plumbing facilities
+B25016_017,1.00 or less occupants per room
+B25016_018,1.01 to 1.50 occupants per room
+B25016_019,1.51 or more occupants per room
+B25017_001,Total
+B25017_002,1 room
+B25017_003,2 rooms
+B25017_004,3 rooms
+B25017_005,4 rooms
+B25017_006,5 rooms
+B25017_007,6 rooms
+B25017_008,7 rooms
+B25017_009,8 rooms
+B25017_010,9 or more rooms
+B25018_001,Median number of rooms
+B25019_001,Aggregate number of rooms
+B25020_001,Total
+B25020_002,Owner occupied
+B25020_003,1 room
+B25020_004,2 rooms
+B25020_005,3 rooms
+B25020_006,4 rooms
+B25020_007,5 rooms
+B25020_008,6 rooms
+B25020_009,7 rooms
+B25020_010,8 rooms
+B25020_011,9 or more rooms
+B25020_012,Renter occupied
+B25020_013,1 room
+B25020_014,2 rooms
+B25020_015,3 rooms
+B25020_016,4 rooms
+B25020_017,5 rooms
+B25020_018,6 rooms
+B25020_019,7 rooms
+B25020_020,8 rooms
+B25020_021,9 or more rooms
+B25021_001,Total
+B25021_002,Owner occupied
+B25021_003,Renter occupied
+B25022_001,Aggregate number of rooms
+B25022_002,Owner occupied
+B25022_003,Renter occupied
+B25024_001,Total
+B25024_002,"1, detached"
+B25024_003,"1, attached"
+B25024_004,2
+B25024_005,3 or 4
+B25024_006,5 to 9
+B25024_007,10 to 19
+B25024_008,20 to 49
+B25024_009,50 or more
+B25024_010,Mobile home
+B25024_011,"Boat, RV, van, etc."
+B25026_001,Total population in occupied housing units
+B25026_002,Owner occupied
+B25026_003,Moved in 2019 or later
+B25026_004,Moved in 2015 to 2018
+B25026_005,Moved in 2010 to 2014
+B25026_006,Moved in 2000 to 2009
+B25026_007,Moved in 1990 to 1999
+B25026_008,Moved in 1989 or earlier
+B25026_009,Renter occupied
+B25026_010,Moved in 2019 or later
+B25026_011,Moved in 2015 to 2018
+B25026_012,Moved in 2010 to 2014
+B25026_013,Moved in 2000 to 2009
+B25026_014,Moved in 1990 to 1999
+B25026_015,Moved in 1989 or earlier
+B25027_001,Total
+B25027_002,Housing units with a mortgage
+B25027_003,Householder 15 to 34 years
+B25027_004,Householder 35 to 44 years
+B25027_005,Householder 45 to 54 years
+B25027_006,Householder 55 to 59 years
+B25027_007,Householder 60 to 64 years
+B25027_008,Householder 65 to 74 years
+B25027_009,Householder 75 years and over
+B25027_010,Housing units without a mortgage
+B25027_011,Householder 15 to 34 years
+B25027_012,Householder 35 to 44 years
+B25027_013,Householder 45 to 54 years
+B25027_014,Householder 55 to 59 years
+B25027_015,Householder 60 to 64 years
+B25027_016,Householder 65 to 74 years
+B25027_017,Householder 75 years and over
+B25031_001,Total
+B25031_002,No bedroom
+B25031_003,1 bedroom
+B25031_004,2 bedrooms
+B25031_005,3 bedrooms
+B25031_006,4 bedrooms
+B25031_007,5 or more bedrooms
+B25032_001,Total
+B25032_002,Owner-occupied housing units
+B25032_003,"1, detached"
+B25032_004,"1, attached"
+B25032_005,2
+B25032_006,3 or 4
+B25032_007,5 to 9
+B25032_008,10 to 19
+B25032_009,20 to 49
+B25032_010,50 or more
+B25032_011,Mobile home
+B25032_012,"Boat, RV, van, etc."
+B25032_013,Renter-occupied housing units
+B25032_014,"1, detached"
+B25032_015,"1, attached"
+B25032_016,2
+B25032_017,3 or 4
+B25032_018,5 to 9
+B25032_019,10 to 19
+B25032_020,20 to 49
+B25032_021,50 or more
+B25032_022,Mobile home
+B25032_023,"Boat, RV, van, etc."
+B25033_001,Total
+B25033_002,Owner occupied
+B25033_003,"1, detached or attached"
+B25033_004,2 to 4
+B25033_005,5 or more
+B25033_006,Mobile home
+B25033_007,"Boat, RV, van, etc."
+B25033_008,Renter occupied
+B25033_009,"1, detached or attached"
+B25033_010,2 to 4
+B25033_011,5 or more
+B25033_012,Mobile home
+B25033_013,"Boat, RV, van, etc."
+B25034_001,Total
+B25034_002,Built 2020 or later
+B25034_003,Built 2010 to 2019
+B25034_004,Built 2000 to 2009
+B25034_005,Built 1990 to 1999
+B25034_006,Built 1980 to 1989
+B25034_007,Built 1970 to 1979
+B25034_008,Built 1960 to 1969
+B25034_009,Built 1950 to 1959
+B25034_010,Built 1940 to 1949
+B25034_011,Built 1939 or earlier
+B25035_001,Median year structure built
+B25036_001,Total
+B25036_002,Owner occupied
+B25036_003,Built 2020 or later
+B25036_004,Built 2010 to 2019
+B25036_005,Built 2000 to 2009
+B25036_006,Built 1990 to 1999
+B25036_007,Built 1980 to 1989
+B25036_008,Built 1970 to 1979
+B25036_009,Built 1960 to 1969
+B25036_010,Built 1950 to 1959
+B25036_011,Built 1940 to 1949
+B25036_012,Built 1939 or earlier
+B25036_013,Renter occupied
+B25036_014,Built 2020 or later
+B25036_015,Built 2010 to 2019
+B25036_016,Built 2000 to 2009
+B25036_017,Built 1990 to 1999
+B25036_018,Built 1980 to 1989
+B25036_019,Built 1970 to 1979
+B25036_020,Built 1960 to 1969
+B25036_021,Built 1950 to 1959
+B25036_022,Built 1940 to 1949
+B25036_023,Built 1939 or earlier
+B25037_001,Total
+B25037_002,Owner occupied
+B25037_003,Renter occupied
+B25038_001,Total
+B25038_002,Owner occupied
+B25038_003,Moved in 2019 or later
+B25038_004,Moved in 2015 to 2018
+B25038_005,Moved in 2010 to 2014
+B25038_006,Moved in 2000 to 2009
+B25038_007,Moved in 1990 to 1999
+B25038_008,Moved in 1989 or earlier
+B25038_009,Renter occupied
+B25038_010,Moved in 2019 or later
+B25038_011,Moved in 2015 to 2018
+B25038_012,Moved in 2010 to 2014
+B25038_013,Moved in 2000 to 2009
+B25038_014,Moved in 1990 to 1999
+B25038_015,Moved in 1989 or earlier
+B25039_001,Total
+B25039_002,Owner occupied
+B25039_003,Renter occupied
+B25040_001,Total
+B25040_002,Utility gas
+B25040_003,"Bottled, tank, or LP gas"
+B25040_004,Electricity
+B25040_005,"Fuel oil, kerosene, etc."
+B25040_006,Coal or coke
+B25040_007,Wood
+B25040_008,Solar energy
+B25040_009,Other fuel
+B25040_010,No fuel used
+B25041_001,Total
+B25041_002,No bedroom
+B25041_003,1 bedroom
+B25041_004,2 bedrooms
+B25041_005,3 bedrooms
+B25041_006,4 bedrooms
+B25041_007,5 or more bedrooms
+B25042_001,Total
+B25042_002,Owner occupied
+B25042_003,No bedroom
+B25042_004,1 bedroom
+B25042_005,2 bedrooms
+B25042_006,3 bedrooms
+B25042_007,4 bedrooms
+B25042_008,5 or more bedrooms
+B25042_009,Renter occupied
+B25042_010,No bedroom
+B25042_011,1 bedroom
+B25042_012,2 bedrooms
+B25042_013,3 bedrooms
+B25042_014,4 bedrooms
+B25042_015,5 or more bedrooms
+B25043_001,Total
+B25043_002,Owner occupied
+B25043_003,With telephone service available
+B25043_004,Householder 15 to 34 years
+B25043_005,Householder 35 to 64 years
+B25043_006,Householder 65 years and over
+B25043_007,No telephone service available
+B25043_008,Householder 15 to 34 years
+B25043_009,Householder 35 to 64 years
+B25043_010,Householder 65 years and over
+B25043_011,Renter occupied
+B25043_012,With telephone service available
+B25043_013,Householder 15 to 34 years
+B25043_014,Householder 35 to 64 years
+B25043_015,Householder 65 years and over
+B25043_016,No telephone service available
+B25043_017,Householder 15 to 34 years
+B25043_018,Householder 35 to 64 years
+B25043_019,Householder 65 years and over
+B25044_001,Total
+B25044_002,Owner occupied
+B25044_003,No vehicle available
+B25044_004,1 vehicle available
+B25044_005,2 vehicles available
+B25044_006,3 vehicles available
+B25044_007,4 vehicles available
+B25044_008,5 or more vehicles available
+B25044_009,Renter occupied
+B25044_010,No vehicle available
+B25044_011,1 vehicle available
+B25044_012,2 vehicles available
+B25044_013,3 vehicles available
+B25044_014,4 vehicles available
+B25044_015,5 or more vehicles available
+B25045_001,Total
+B25045_002,Owner occupied
+B25045_003,No vehicle available
+B25045_004,Householder 15 to 34 years
+B25045_005,Householder 35 to 64 years
+B25045_006,Householder 65 years and over
+B25045_007,1 or more vehicles available
+B25045_008,Householder 15 to 34 years
+B25045_009,Householder 35 to 64 years
+B25045_010,Householder 65 years and over
+B25045_011,Renter occupied
+B25045_012,No vehicle available
+B25045_013,Householder 15 to 34 years
+B25045_014,Householder 35 to 64 years
+B25045_015,Householder 65 years and over
+B25045_016,1 or more vehicles available
+B25045_017,Householder 15 to 34 years
+B25045_018,Householder 35 to 64 years
+B25045_019,Householder 65 years and over
+B25046_001,Aggregate number of vehicles available
+B25046_002,Owner occupied
+B25046_003,Renter occupied
+B25047_001,Total
+B25047_002,Complete plumbing facilities
+B25047_003,Lacking complete plumbing facilities
+B25048_001,Total
+B25048_002,Complete plumbing facilities
+B25048_003,Lacking complete plumbing facilities
+B25049_001,Total
+B25049_002,Owner occupied
+B25049_003,Complete plumbing facilities
+B25049_004,Lacking plumbing facilities
+B25049_005,Renter occupied
+B25049_006,Complete plumbing facilities
+B25049_007,Lacking plumbing facilities
+B25050_001,Total
+B25050_002,Complete plumbing facilities
+B25050_003,1.00 or less occupants per room
+B25050_004,Built 1950 or later
+B25050_005,Built 1940 to 1949
+B25050_006,Built 1939 or earlier
+B25050_007,1.01 or more occupants per room
+B25050_008,Built 1950 or later
+B25050_009,Built 1940 to 1949
+B25050_010,Built 1939 or earlier
+B25050_011,Lacking complete plumbing facilities
+B25050_012,1.00 or less occupants per room
+B25050_013,Built 1950 or later
+B25050_014,Built 1940 to 1949
+B25050_015,Built 1939 or earlier
+B25050_016,1.01 or more occupants per room
+B25050_017,Built 1950 or later
+B25050_018,Built 1940 to 1949
+B25050_019,Built 1939 or earlier
+B25051_001,Total
+B25051_002,Complete kitchen facilities
+B25051_003,Lacking complete kitchen facilities
+B25052_001,Total
+B25052_002,Complete kitchen facilities
+B25052_003,Lacking complete kitchen facilities
+B25053_001,Total
+B25053_002,Owner occupied
+B25053_003,Complete kitchen facilities
+B25053_004,Lacking complete kitchen facilities
+B25053_005,Renter occupied
+B25053_006,Complete kitchen facilities
+B25053_007,Lacking complete kitchen facilities
+B25054_001,Total
+B25054_002,Complete kitchen facilities
+B25054_003,Meals included in rent
+B25054_004,No meals included in rent
+B25054_005,Lacking complete kitchen facilities
+B25054_006,Meals included in rent
+B25054_007,No meals included in rent
+B25055_001,Total
+B25055_002,Householder 15 to 54 years
+B25055_003,Meals included in rent
+B25055_004,No meals included in rent
+B25055_005,Householder 55 to 64 years
+B25055_006,Meals included in rent
+B25055_007,No meals included in rent
+B25055_008,Householder 65 to 74 years
+B25055_009,Meals included in rent
+B25055_010,No meals included in rent
+B25055_011,Householder 75 years and over
+B25055_012,Meals included in rent
+B25055_013,No meals included in rent
+B25056_001,Total
+B25056_002,With cash rent
+B25056_003,Less than $100
+B25056_004,$100 to $149
+B25056_005,$150 to $199
+B25056_006,$200 to $249
+B25056_007,$250 to $299
+B25056_008,$300 to $349
+B25056_009,$350 to $399
+B25056_010,$400 to $449
+B25056_011,$450 to $499
+B25056_012,$500 to $549
+B25056_013,$550 to $599
+B25056_014,$600 to $649
+B25056_015,$650 to $699
+B25056_016,$700 to $749
+B25056_017,$750 to $799
+B25056_018,$800 to $899
+B25056_019,$900 to $999
+B25056_020,"$1,000 to $1,249"
+B25056_021,"$1,250 to $1,499"
+B25056_022,"$1,500 to $1,999"
+B25056_023,"$2,000 to $2,499"
+B25056_024,"$2,500 to $2,999"
+B25056_025,"$3,000 to $3,499"
+B25056_026,"$3,500 or more"
+B25056_027,No cash rent
+B25057_001,Lower contract rent quartile
+B25058_001,Median contract rent
+B25059_001,Upper contract rent quartile
+B25060_001,Aggregate contract rent
+B25061_001,Total
+B25061_002,Less than $100
+B25061_003,$100 to $149
+B25061_004,$150 to $199
+B25061_005,$200 to $249
+B25061_006,$250 to $299
+B25061_007,$300 to $349
+B25061_008,$350 to $399
+B25061_009,$400 to $449
+B25061_010,$450 to $499
+B25061_011,$500 to $549
+B25061_012,$550 to $599
+B25061_013,$600 to $649
+B25061_014,$650 to $699
+B25061_015,$700 to $749
+B25061_016,$750 to $799
+B25061_017,$800 to $899
+B25061_018,$900 to $999
+B25061_019,"$1,000 to $1,249"
+B25061_020,"$1,250 to $1,499"
+B25061_021,"$1,500 to $1,999"
+B25061_022,"$2,000 to $2,499"
+B25061_023,"$2,500 to $2,999"
+B25061_024,"$3,000 to $3,499"
+B25061_025,"$3,500 or more"
+B25062_001,Aggregate rent asked
+B25063_001,Total
+B25063_002,With cash rent
+B25063_003,Less than $100
+B25063_004,$100 to $149
+B25063_005,$150 to $199
+B25063_006,$200 to $249
+B25063_007,$250 to $299
+B25063_008,$300 to $349
+B25063_009,$350 to $399
+B25063_010,$400 to $449
+B25063_011,$450 to $499
+B25063_012,$500 to $549
+B25063_013,$550 to $599
+B25063_014,$600 to $649
+B25063_015,$650 to $699
+B25063_016,$700 to $749
+B25063_017,$750 to $799
+B25063_018,$800 to $899
+B25063_019,$900 to $999
+B25063_020,"$1,000 to $1,249"
+B25063_021,"$1,250 to $1,499"
+B25063_022,"$1,500 to $1,999"
+B25063_023,"$2,000 to $2,499"
+B25063_024,"$2,500 to $2,999"
+B25063_025,"$3,000 to $3,499"
+B25063_026,"$3,500 or more"
+B25063_027,No cash rent
+B25064_001,Median gross rent
+B25065_001,Aggregate gross rent
+B25066_001,Aggregate gross rent
+B25066_002,"1, detached or attached"
+B25066_003,2 to 4
+B25066_004,5 to 19
+B25066_005,20 to 49
+B25066_006,50 or more
+B25066_007,Mobile home
+B25066_008,"Boat, RV, van, etc."
+B25067_001,Aggregate gross rent
+B25067_002,Meals included in rent
+B25067_003,No meals included in rent
+B25068_001,Total
+B25068_002,No bedroom
+B25068_003,With cash rent
+B25068_004,Less than $300
+B25068_005,$300 to $499
+B25068_006,$500 to $749
+B25068_007,$750 to $999
+B25068_008,"$1,000 to $1,499"
+B25068_009,"$1,500 or more"
+B25068_010,No cash rent
+B25068_011,1 bedroom
+B25068_012,With cash rent
+B25068_013,Less than $300
+B25068_014,$300 to $499
+B25068_015,$500 to $749
+B25068_016,$750 to $999
+B25068_017,"$1,000 to $1,499"
+B25068_018,"$1,500 or more"
+B25068_019,No cash rent
+B25068_020,2 bedrooms
+B25068_021,With cash rent
+B25068_022,Less than $300
+B25068_023,$300 to $499
+B25068_024,$500 to $749
+B25068_025,$750 to $999
+B25068_026,"$1,000 to $1,499"
+B25068_027,"$1,500 or more"
+B25068_028,No cash rent
+B25068_029,3 or more bedrooms
+B25068_030,With cash rent
+B25068_031,Less than $300
+B25068_032,$300 to $499
+B25068_033,$500 to $749
+B25068_034,$750 to $999
+B25068_035,"$1,000 to $1,499"
+B25068_036,"$1,500 or more"
+B25068_037,No cash rent
+B25069_001,Total
+B25069_002,Pay extra for one or more utilities
+B25069_003,No extra payment for any utilities
+B25070_001,Total
+B25070_002,Less than 10.0 percent
+B25070_003,10.0 to 14.9 percent
+B25070_004,15.0 to 19.9 percent
+B25070_005,20.0 to 24.9 percent
+B25070_006,25.0 to 29.9 percent
+B25070_007,30.0 to 34.9 percent
+B25070_008,35.0 to 39.9 percent
+B25070_009,40.0 to 49.9 percent
+B25070_010,50.0 percent or more
+B25070_011,Not computed
+B25071_001,Median gross rent as a percentage of household income
+B25072_001,Total
+B25072_002,Householder 15 to 24 years
+B25072_003,Less than 20.0 percent
+B25072_004,20.0 to 24.9 percent
+B25072_005,25.0 to 29.9 percent
+B25072_006,30.0 to 34.9 percent
+B25072_007,35.0 percent or more
+B25072_008,Not computed
+B25072_009,Householder 25 to 34 years
+B25072_010,Less than 20.0 percent
+B25072_011,20.0 to 24.9 percent
+B25072_012,25.0 to 29.9 percent
+B25072_013,30.0 to 34.9 percent
+B25072_014,35.0 percent or more
+B25072_015,Not computed
+B25072_016,Householder 35 to 64 years
+B25072_017,Less than 20.0 percent
+B25072_018,20.0 to 24.9 percent
+B25072_019,25.0 to 29.9 percent
+B25072_020,30.0 to 34.9 percent
+B25072_021,35.0 percent or more
+B25072_022,Not computed
+B25072_023,Householder 65 years and over
+B25072_024,Less than 20.0 percent
+B25072_025,20.0 to 24.9 percent
+B25072_026,25.0 to 29.9 percent
+B25072_027,30.0 to 34.9 percent
+B25072_028,35.0 percent or more
+B25072_029,Not computed
+B25074_001,Total
+B25074_002,"Less than $10,000"
+B25074_003,Less than 20.0 percent
+B25074_004,20.0 to 24.9 percent
+B25074_005,25.0 to 29.9 percent
+B25074_006,30.0 to 34.9 percent
+B25074_007,35.0 to 39.9 percent
+B25074_008,40.0 to 49.9 percent
+B25074_009,50.0 percent or more
+B25074_010,Not computed
+B25074_011,"$10,000 to $19,999"
+B25074_012,Less than 20.0 percent
+B25074_013,20.0 to 24.9 percent
+B25074_014,25.0 to 29.9 percent
+B25074_015,30.0 to 34.9 percent
+B25074_016,35.0 to 39.9 percent
+B25074_017,40.0 to 49.9 percent
+B25074_018,50.0 percent or more
+B25074_019,Not computed
+B25074_020,"$20,000 to $34,999"
+B25074_021,Less than 20.0 percent
+B25074_022,20.0 to 24.9 percent
+B25074_023,25.0 to 29.9 percent
+B25074_024,30.0 to 34.9 percent
+B25074_025,35.0 to 39.9 percent
+B25074_026,40.0 to 49.9 percent
+B25074_027,50.0 percent or more
+B25074_028,Not computed
+B25074_029,"$35,000 to $49,999"
+B25074_030,Less than 20.0 percent
+B25074_031,20.0 to 24.9 percent
+B25074_032,25.0 to 29.9 percent
+B25074_033,30.0 to 34.9 percent
+B25074_034,35.0 to 39.9 percent
+B25074_035,40.0 to 49.9 percent
+B25074_036,50.0 percent or more
+B25074_037,Not computed
+B25074_038,"$50,000 to $74,999"
+B25074_039,Less than 20.0 percent
+B25074_040,20.0 to 24.9 percent
+B25074_041,25.0 to 29.9 percent
+B25074_042,30.0 to 34.9 percent
+B25074_043,35.0 to 39.9 percent
+B25074_044,40.0 to 49.9 percent
+B25074_045,50.0 percent or more
+B25074_046,Not computed
+B25074_047,"$75,000 to $99,999"
+B25074_048,Less than 20.0 percent
+B25074_049,20.0 to 24.9 percent
+B25074_050,25.0 to 29.9 percent
+B25074_051,30.0 to 34.9 percent
+B25074_052,35.0 to 39.9 percent
+B25074_053,40.0 to 49.9 percent
+B25074_054,50.0 percent or more
+B25074_055,Not computed
+B25074_056,"$100,000 or more"
+B25074_057,Less than 20.0 percent
+B25074_058,20.0 to 24.9 percent
+B25074_059,25.0 to 29.9 percent
+B25074_060,30.0 to 34.9 percent
+B25074_061,35.0 to 39.9 percent
+B25074_062,40.0 to 49.9 percent
+B25074_063,50.0 percent or more
+B25074_064,Not computed
+B25075_001,Total
+B25075_002,"Less than $10,000"
+B25075_003,"$10,000 to $14,999"
+B25075_004,"$15,000 to $19,999"
+B25075_005,"$20,000 to $24,999"
+B25075_006,"$25,000 to $29,999"
+B25075_007,"$30,000 to $34,999"
+B25075_008,"$35,000 to $39,999"
+B25075_009,"$40,000 to $49,999"
+B25075_010,"$50,000 to $59,999"
+B25075_011,"$60,000 to $69,999"
+B25075_012,"$70,000 to $79,999"
+B25075_013,"$80,000 to $89,999"
+B25075_014,"$90,000 to $99,999"
+B25075_015,"$100,000 to $124,999"
+B25075_016,"$125,000 to $149,999"
+B25075_017,"$150,000 to $174,999"
+B25075_018,"$175,000 to $199,999"
+B25075_019,"$200,000 to $249,999"
+B25075_020,"$250,000 to $299,999"
+B25075_021,"$300,000 to $399,999"
+B25075_022,"$400,000 to $499,999"
+B25075_023,"$500,000 to $749,999"
+B25075_024,"$750,000 to $999,999"
+B25075_025,"$1,000,000 to $1,499,999"
+B25075_026,"$1,500,000 to $1,999,999"
+B25075_027,"$2,000,000 or more"
+B25076_001,Lower value quartile (dollars)
+B25077_001,Median value (dollars)
+B25078_001,Upper value quartile (dollars)
+B25079_001,Aggregate value (dollars)
+B25079_002,Householder 15 to 24 years (dollars)
+B25079_003,Householder 25 to 34 years (dollars)
+B25079_004,Householder 35 to 64 years (dollars)
+B25079_005,Householder 65 years and over (dollars)
+B25080_001,Aggregate value (dollars)
+B25080_002,"1, detached (dollars)"
+B25080_003,"1, attached (dollars)"
+B25080_004,2 (dollars)
+B25080_005,3 or 4 (dollars)
+B25080_006,5 or more (dollars)
+B25080_007,Mobile home (dollars)
+B25080_008,"Boat, RV, van, etc. (dollars)"
+B25081_001,Total
+B25081_002,"Housing units with a mortgage, contract to purchase, or similar debt"
+B25081_003,Housing units with no second mortgage and no home equity loan
+B25081_004,Housing units with multiple mortgages
+B25081_005,Mortgage with both second mortgage and home equity loan
+B25081_006,"Mortgage, with only home equity loan"
+B25081_007,"Mortgage, with only second mortgage"
+B25081_008,Home equity loan without a primary mortgage
+B25081_009,Housing units without a mortgage
+B25082_001,Aggregate value (dollars)
+B25082_002,Housing units with a mortgage (dollars)
+B25082_003,Housing units without a mortgage (dollars)
+B25083_001,Median value (dollars)
+B25085_001,Total
+B25085_002,"Less than $10,000"
+B25085_003,"$10,000 to $14,999"
+B25085_004,"$15,000 to $19,999"
+B25085_005,"$20,000 to $24,999"
+B25085_006,"$25,000 to $29,999"
+B25085_007,"$30,000 to $34,999"
+B25085_008,"$35,000 to $39,999"
+B25085_009,"$40,000 to $49,999"
+B25085_010,"$50,000 to $59,999"
+B25085_011,"$60,000 to $69,999"
+B25085_012,"$70,000 to $79,999"
+B25085_013,"$80,000 to $89,999"
+B25085_014,"$90,000 to $99,999"
+B25085_015,"$100,000 to $124,999"
+B25085_016,"$125,000 to $149,999"
+B25085_017,"$150,000 to $174,999"
+B25085_018,"$175,000 to $199,999"
+B25085_019,"$200,000 to $249,999"
+B25085_020,"$250,000 to $299,999"
+B25085_021,"$300,000 to $399,999"
+B25085_022,"$400,000 to $499,999"
+B25085_023,"$500,000 to $749,999"
+B25085_024,"$750,000 to $999,999"
+B25085_025,"$1,000,000 to $1,499,999"
+B25085_026,"$1,500,000 to $1,999,999"
+B25085_027,"$2,000,000 or more"
+B25086_001,Aggregate price asked (dollars)
+B25087_001,Total
+B25087_002,Housing units with a mortgage
+B25087_003,Less than $200
+B25087_004,$200 to $299
+B25087_005,$300 to $399
+B25087_006,$400 to $499
+B25087_007,$500 to $599
+B25087_008,$600 to $699
+B25087_009,$700 to $799
+B25087_010,$800 to $899
+B25087_011,$900 to $999
+B25087_012,"$1,000 to $1,249"
+B25087_013,"$1,250 to $1,499"
+B25087_014,"$1,500 to $1,999"
+B25087_015,"$2,000 to $2,499"
+B25087_016,"$2,500 to $2,999"
+B25087_017,"$3,000 to $3,499"
+B25087_018,"$3,500 to $3,999"
+B25087_019,"$4,000 or more"
+B25087_020,Housing units without a mortgage
+B25087_021,Less than $100
+B25087_022,$100 to $149
+B25087_023,$150 to $199
+B25087_024,$200 to $249
+B25087_025,$250 to $299
+B25087_026,$300 to $349
+B25087_027,$350 to $399
+B25087_028,$400 to $499
+B25087_029,$500 to $599
+B25087_030,$600 to $699
+B25087_031,$700 to $799
+B25087_032,$800 to $899
+B25087_033,$900 to $999
+B25087_034,"$1000 to $1,099"
+B25087_035,"$1100 to $1,199"
+B25087_036,"$1200 to $1,299"
+B25087_037,"$1300 to $1,399"
+B25087_038,"$1400 to $1,499"
+B25087_039,"$1,500 or more"
+B25088_001,Total
+B25088_002,Housing units with a mortgage (dollars)
+B25088_003,Housing units without a mortgage (dollars)
+B25089_001,Aggregate selected monthly owner costs (dollars)
+B25089_002,Housing units with a mortgage (dollars)
+B25089_003,Housing units without a mortgage (dollars)
+B25090_001,Aggregate real estate taxes paid (dollars)
+B25090_002,Aggregate real estate taxes paid for units with a mortgage (dollars)
+B25090_003,Aggregate real estate taxes paid for units without a mortgage (dollars)
+B25091_001,Total
+B25091_002,Housing units with a mortgage
+B25091_003,Less than 10.0 percent
+B25091_004,10.0 to 14.9 percent
+B25091_005,15.0 to 19.9 percent
+B25091_006,20.0 to 24.9 percent
+B25091_007,25.0 to 29.9 percent
+B25091_008,30.0 to 34.9 percent
+B25091_009,35.0 to 39.9 percent
+B25091_010,40.0 to 49.9 percent
+B25091_011,50.0 percent or more
+B25091_012,Not computed
+B25091_013,Housing units without a mortgage
+B25091_014,Less than 10.0 percent
+B25091_015,10.0 to 14.9 percent
+B25091_016,15.0 to 19.9 percent
+B25091_017,20.0 to 24.9 percent
+B25091_018,25.0 to 29.9 percent
+B25091_019,30.0 to 34.9 percent
+B25091_020,35.0 to 39.9 percent
+B25091_021,40.0 to 49.9 percent
+B25091_022,50.0 percent or more
+B25091_023,Not computed
+B25092_001,Total
+B25092_002,Housing units with a mortgage
+B25092_003,Housing units without a mortgage
+B25093_001,Total
+B25093_002,Householder 15 to 24 years
+B25093_003,Less than 20.0 percent
+B25093_004,20.0 to 24.9 percent
+B25093_005,25.0 to 29.9 percent
+B25093_006,30.0 to 34.9 percent
+B25093_007,35.0 percent or more
+B25093_008,Not computed
+B25093_009,Householder 25 to 34 years
+B25093_010,Less than 20.0 percent
+B25093_011,20.0 to 24.9 percent
+B25093_012,25.0 to 29.9 percent
+B25093_013,30.0 to 34.9 percent
+B25093_014,35.0 percent or more
+B25093_015,Not computed
+B25093_016,Householder 35 to 64 years
+B25093_017,Less than 20.0 percent
+B25093_018,20.0 to 24.9 percent
+B25093_019,25.0 to 29.9 percent
+B25093_020,30.0 to 34.9 percent
+B25093_021,35.0 percent or more
+B25093_022,Not computed
+B25093_023,Householder 65 years and over
+B25093_024,Less than 20.0 percent
+B25093_025,20.0 to 24.9 percent
+B25093_026,25.0 to 29.9 percent
+B25093_027,30.0 to 34.9 percent
+B25093_028,35.0 percent or more
+B25093_029,Not computed
+B25094_001,Total
+B25094_002,Less than $200
+B25094_003,$200 to $299
+B25094_004,$300 to $399
+B25094_005,$400 to $499
+B25094_006,$500 to $599
+B25094_007,$600 to $699
+B25094_008,$700 to $799
+B25094_009,$800 to $899
+B25094_010,$900 to $999
+B25094_011,"$1,000 to $1,249"
+B25094_012,"$1,250 to $1,499"
+B25094_013,"$1,500 to $1,999"
+B25094_014,"$2,000 to $2,499"
+B25094_015,"$2,500 to $2,999"
+B25094_016,"$3,000 to $3,499"
+B25094_017,"$3,500 to $3,999"
+B25094_018,"$4,000 or more"
+B25095_001,Total
+B25095_002,"Less than $10,000"
+B25095_003,Less than 20.0 percent
+B25095_004,20.0 to 24.9 percent
+B25095_005,25.0 to 29.9 percent
+B25095_006,30.0 to 34.9 percent
+B25095_007,35.0 to 39.9 percent
+B25095_008,40.0 to 49.9 percent
+B25095_009,50.0 percent or more
+B25095_010,Not computed
+B25095_011,"$10,000 to $19,999"
+B25095_012,Less than 20.0 percent
+B25095_013,20.0 to 24.9 percent
+B25095_014,25.0 to 29.9 percent
+B25095_015,30.0 to 34.9 percent
+B25095_016,35.0 to 39.9 percent
+B25095_017,40.0 to 49.9 percent
+B25095_018,50.0 percent or more
+B25095_019,Not computed
+B25095_020,"$20,000 to $34,999"
+B25095_021,Less than 20.0 percent
+B25095_022,20.0 to 24.9 percent
+B25095_023,25.0 to 29.9 percent
+B25095_024,30.0 to 34.9 percent
+B25095_025,35.0 to 39.9 percent
+B25095_026,40.0 to 49.9 percent
+B25095_027,50.0 percent or more
+B25095_028,Not computed
+B25095_029,"$35,000 to $49,999"
+B25095_030,Less than 20.0 percent
+B25095_031,20.0 to 24.9 percent
+B25095_032,25.0 to 29.9 percent
+B25095_033,30.0 to 34.9 percent
+B25095_034,35.0 to 39.9 percent
+B25095_035,40.0 to 49.9 percent
+B25095_036,50.0 percent or more
+B25095_037,Not computed
+B25095_038,"$50,000 to $74,999"
+B25095_039,Less than 20.0 percent
+B25095_040,20.0 to 24.9 percent
+B25095_041,25.0 to 29.9 percent
+B25095_042,30.0 to 34.9 percent
+B25095_043,35.0 to 39.9 percent
+B25095_044,40.0 to 49.9 percent
+B25095_045,50.0 percent or more
+B25095_046,Not computed
+B25095_047,"$75,000 to $99,999"
+B25095_048,Less than 20.0 percent
+B25095_049,20.0 to 24.9 percent
+B25095_050,25.0 to 29.9 percent
+B25095_051,30.0 to 34.9 percent
+B25095_052,35.0 to 39.9 percent
+B25095_053,40.0 to 49.9 percent
+B25095_054,50.0 percent or more
+B25095_055,Not computed
+B25095_056,"$100,000 to $149,999"
+B25095_057,Less than 20.0 percent
+B25095_058,20.0 to 24.9 percent
+B25095_059,25.0 to 29.9 percent
+B25095_060,30.0 to 34.9 percent
+B25095_061,35.0 to 39.9 percent
+B25095_062,40.0 to 49.9 percent
+B25095_063,50.0 percent or more
+B25095_064,Not computed
+B25095_065,"$150,000 or more"
+B25095_066,Less than 20.0 percent
+B25095_067,20.0 to 24.9 percent
+B25095_068,25.0 to 29.9 percent
+B25095_069,30.0 to 34.9 percent
+B25095_070,35.0 to 39.9 percent
+B25095_071,40.0 to 49.9 percent
+B25095_072,50.0 percent or more
+B25095_073,Not computed
+B25096_001,Total
+B25096_002,With a mortgage
+B25096_003,"Less than $50,000"
+B25096_004,"$50,000 to $99,999"
+B25096_005,"$100,000 to $149,999"
+B25096_006,"$150,000 to $199,999"
+B25096_007,"$200,000 to $299,999"
+B25096_008,"$300,000 to $499,999"
+B25096_009,"$500,000 to $749,999"
+B25096_010,"$750,000 to $999,999"
+B25096_011,"$1,000,000 or more"
+B25096_012,Not mortgaged
+B25096_013,"Less than $50,000"
+B25096_014,"$50,000 to $99,999"
+B25096_015,"$100,000 to $149,999"
+B25096_016,"$150,000 to $199,999"
+B25096_017,"$200,000 to $299,999"
+B25096_018,"$300,000 to $499,999"
+B25096_019,"$500,000 to $749,999"
+B25096_020,"$750,000 to $999,999"
+B25096_021,"$1,000,000 or more"
+B25097_001,Total
+B25097_002,Median value for units with a mortgage
+B25097_003,Median value for units without a mortgage
+B25098_001,Total
+B25098_002,With a mortgage
+B25098_003,"Less than $10,000"
+B25098_004,"$10,000 to $24,999"
+B25098_005,"$25,000 to $34,999"
+B25098_006,"$35,000 to $49,999"
+B25098_007,"$50,000 to $74,999"
+B25098_008,"$75,000 to $99,999"
+B25098_009,"$100,000 to $149,999"
+B25098_010,"$150,000 or more"
+B25098_011,Not mortgaged
+B25098_012,"Less than $10,000"
+B25098_013,"$10,000 to $24,999"
+B25098_014,"$25,000 to $34,999"
+B25098_015,"$35,000 to $49,999"
+B25098_016,"$50,000 to $74,999"
+B25098_017,"$75,000 to $99,999"
+B25098_018,"$100,000 to $149,999"
+B25098_019,"$150,000 or more"
+B25099_001,Total
+B25099_002,Median household income for units with a mortgage
+B25099_003,Median household income for units without a mortgage
+B25100_001,Total
+B25100_002,With a mortgage
+B25100_003,Less than 2.0
+B25100_004,2.0 to 2.9
+B25100_005,3.0 to 3.9
+B25100_006,4.0 or more
+B25100_007,Not computed
+B25100_008,Not mortgaged
+B25100_009,Less than 2.0
+B25100_010,2.0 to 2.9
+B25100_011,3.0 to 3.9
+B25100_012,4.0 or more
+B25100_013,Not computed
+B25101_001,Total
+B25101_002,With a mortgage
+B25101_003,"Less than $20,000"
+B25101_004,Less than 20 percent
+B25101_005,20 to 29 percent
+B25101_006,30 percent or more
+B25101_007,"$20,000 to $34,999"
+B25101_008,Less than 20 percent
+B25101_009,20 to 29 percent
+B25101_010,30 percent or more
+B25101_011,"$35,000 to $49,999"
+B25101_012,Less than 20 percent
+B25101_013,20 to 29 percent
+B25101_014,30 percent or more
+B25101_015,"$50,000 to $74,999"
+B25101_016,Less than 20 percent
+B25101_017,20 to 29 percent
+B25101_018,30 percent or more
+B25101_019,"$75,000 or more"
+B25101_020,Less than 20 percent
+B25101_021,20 to 29 percent
+B25101_022,30 percent or more
+B25101_023,Zero or negative income
+B25101_024,Not mortgaged
+B25101_025,"Less than $20,000"
+B25101_026,Less than 20 percent
+B25101_027,20 to 29 percent
+B25101_028,30 percent or more
+B25101_029,"$20,000 to $34,999"
+B25101_030,Less than 20 percent
+B25101_031,20 to 29 percent
+B25101_032,30 percent or more
+B25101_033,"$35,000 to $49,999"
+B25101_034,Less than 20 percent
+B25101_035,20 to 29 percent
+B25101_036,30 percent or more
+B25101_037,"$50,000 to $74,999"
+B25101_038,Less than 20 percent
+B25101_039,20 to 29 percent
+B25101_040,30 percent or more
+B25101_041,"$75,000 or more"
+B25101_042,Less than 20 percent
+B25101_043,20 to 29 percent
+B25101_044,30 percent or more
+B25101_045,Zero or negative income
+B25102_001,Total
+B25102_002,With a mortgage
+B25102_003,Less than $800
+B25102_004,"$800 to $1,499"
+B25102_005,"$1,500 to $1,999"
+B25102_006,"$2,000 to $2,999"
+B25102_007,"$3,000 or more"
+B25102_008,No real estate taxes paid
+B25102_009,Not mortgaged
+B25102_010,Less than $800
+B25102_011,"$800 to $1,499"
+B25102_012,"$1,500 to $1,999"
+B25102_013,"$2,000 to $2,999"
+B25102_014,"$3,000 or more"
+B25102_015,No real estate taxes paid
+B25103_001,Total
+B25103_002,Median real estate taxes paid for units with a mortgage
+B25103_003,Median real estate taxes paid for units without a mortgage
+B25104_001,Total
+B25104_002,Less than $100
+B25104_003,$100 to $199
+B25104_004,$200 to $299
+B25104_005,$300 to $399
+B25104_006,$400 to $499
+B25104_007,$500 to $599
+B25104_008,$600 to $699
+B25104_009,$700 to $799
+B25104_010,$800 to $899
+B25104_011,$900 to $999
+B25104_012,"$1,000 to $1,499"
+B25104_013,"$1,500 to $1,999"
+B25104_014,"$2,000 to $2,499"
+B25104_015,"$2,500 to $2,999"
+B25104_016,"$3,000 or more"
+B25104_017,No cash rent
+B25105_001,Median monthly housing costs
+B25106_001,Total
+B25106_002,Owner-occupied housing units
+B25106_003,"Less than $20,000"
+B25106_004,Less than 20 percent
+B25106_005,20 to 29 percent
+B25106_006,30 percent or more
+B25106_007,"$20,000 to $34,999"
+B25106_008,Less than 20 percent
+B25106_009,20 to 29 percent
+B25106_010,30 percent or more
+B25106_011,"$35,000 to $49,999"
+B25106_012,Less than 20 percent
+B25106_013,20 to 29 percent
+B25106_014,30 percent or more
+B25106_015,"$50,000 to $74,999"
+B25106_016,Less than 20 percent
+B25106_017,20 to 29 percent
+B25106_018,30 percent or more
+B25106_019,"$75,000 or more"
+B25106_020,Less than 20 percent
+B25106_021,20 to 29 percent
+B25106_022,30 percent or more
+B25106_023,Zero or negative income
+B25106_024,Renter-occupied housing units
+B25106_025,"Less than $20,000"
+B25106_026,Less than 20 percent
+B25106_027,20 to 29 percent
+B25106_028,30 percent or more
+B25106_029,"$20,000 to $34,999"
+B25106_030,Less than 20 percent
+B25106_031,20 to 29 percent
+B25106_032,30 percent or more
+B25106_033,"$35,000 to $49,999"
+B25106_034,Less than 20 percent
+B25106_035,20 to 29 percent
+B25106_036,30 percent or more
+B25106_037,"$50,000 to $74,999"
+B25106_038,Less than 20 percent
+B25106_039,20 to 29 percent
+B25106_040,30 percent or more
+B25106_041,"$75,000 or more"
+B25106_042,Less than 20 percent
+B25106_043,20 to 29 percent
+B25106_044,30 percent or more
+B25106_045,Zero or negative income
+B25106_046,No cash rent
+B25107_001,Total
+B25107_002,Built 2020 or later
+B25107_003,Built 2010 to 2019
+B25107_004,Built 2000 to 2009
+B25107_005,Built 1990 to 1999
+B25107_006,Built 1980 to 1989
+B25107_007,Built 1970 to 1979
+B25107_008,Built 1960 to 1969
+B25107_009,Built 1950 to 1959
+B25107_010,Built 1940 to 1949
+B25107_011,Built 1939 or earlier
+B25108_001,Aggregate value (dollars)
+B25108_002,Built 2020 or later
+B25108_003,Built 2010 to 2019
+B25108_004,Built 2000 to 2009
+B25108_005,Built 1990 to 1999
+B25108_006,Built 1980 to 1989
+B25108_007,Built 1970 to 1979
+B25108_008,Built 1960 to 1969
+B25108_009,Built 1950 to 1959
+B25108_010,Built 1940 to 1949
+B25108_011,Built 1939 or earlier
+B25109_001,Total
+B25109_002,Moved in 2019 or later
+B25109_003,Moved in 2015 to 2018
+B25109_004,Moved in 2010 to 2014
+B25109_005,Moved in 2000 to 2009
+B25109_006,Moved in 1990 to 1999
+B25109_007,Moved in 1989 or earlier
+B25110_001,Aggregate value (dollars)
+B25110_002,Moved in 2019 or later
+B25110_003,Moved in 2015 to 2018
+B25110_004,Moved in 2010 to 2014
+B25110_005,Moved in 2000 to 2009
+B25110_006,Moved in 1990 to 1999
+B25110_007,Moved in 1989 or earlier
+B25111_001,Total
+B25111_002,Built 2020 or later
+B25111_003,Built 2010 to 2019
+B25111_004,Built 2000 to 2009
+B25111_005,Built 1990 to 1999
+B25111_006,Built 1980 to 1989
+B25111_007,Built 1970 to 1979
+B25111_008,Built 1960 to 1969
+B25111_009,Built 1950 to 1959
+B25111_010,Built 1940 to 1949
+B25111_011,Built 1939 or earlier
+B25112_001,Aggregate gross rent (dollars)
+B25112_002,Built 2020 or later
+B25112_003,Built 2010 to 2019
+B25112_004,Built 2000 to 2009
+B25112_005,Built 1990 to 1999
+B25112_006,Built 1980 to 1989
+B25112_007,Built 1970 to 1979
+B25112_008,Built 1960 to 1969
+B25112_009,Built 1950 to 1959
+B25112_010,Built 1940 to 1949
+B25112_011,Built 1939 or earlier
+B25113_001,Total
+B25113_002,Moved in 2019 or later
+B25113_003,Moved in 2015 to 2018
+B25113_004,Moved in 2010 to 2014
+B25113_005,Moved in 2000 to 2009
+B25113_006,Moved in 1990 to 1999
+B25113_007,Moved in 1989 or earlier
+B25114_001,Aggregate gross rent
+B25114_002,Moved in 2019 or later
+B25114_003,Moved in 2015 to 2018
+B25114_004,Moved in 2010 to 2014
+B25114_005,Moved in 2000 to 2009
+B25114_006,Moved in 1990 to 1999
+B25114_007,Moved in 1989 or earlier
+B25115_001,Total
+B25115_002,Owner occupied
+B25115_003,Family households
+B25115_004,Married-couple family
+B25115_005,With own children of the householder under 18 years
+B25115_006,No own children of the householder under 18 years
+B25115_007,Other family
+B25115_008,"Male householder, no spouse present"
+B25115_009,With own children of the householder under 18 years
+B25115_010,No own children of the householder under 18 years
+B25115_011,"Female householder, no spouse present"
+B25115_012,With own children of the householder under 18 years
+B25115_013,No own children of the householder under 18 years
+B25115_014,Nonfamily households
+B25115_015,Renter occupied
+B25115_016,Family households
+B25115_017,Married-couple family
+B25115_018,With own children of the householder under 18 years
+B25115_019,No own children of the householder under 18 years
+B25115_020,Other family
+B25115_021,"Male householder, no spouse present"
+B25115_022,With own children of the householder under 18 years
+B25115_023,No own children of the householder under 18 years
+B25115_024,"Female householder, no spouse present"
+B25115_025,With own children of the householder under 18 years
+B25115_026,No own children of the householder under 18 years
+B25115_027,Nonfamily households
+B25116_001,Total
+B25116_002,Owner occupied
+B25116_003,1-person household
+B25116_004,Householder 15 to 54 years
+B25116_005,Householder 55 to 64 years
+B25116_006,Householder 65 to 74 years
+B25116_007,Householder 75 years and over
+B25116_008,2-or-more person household
+B25116_009,Householder 15 to 54 years
+B25116_010,Householder 55 to 64 years
+B25116_011,Householder 65 to 74 years
+B25116_012,Householder 75 years and over
+B25116_013,Renter occupied
+B25116_014,1-person household
+B25116_015,Householder 15 to 54 years
+B25116_016,Householder 55 to 64 years
+B25116_017,Householder 65 to 74 years
+B25116_018,Householder 75 years and over
+B25116_019,2-or-more person household
+B25116_020,Householder 15 to 54 years
+B25116_021,Householder 55 to 64 years
+B25116_022,Householder 65 to 74 years
+B25116_023,Householder 75 years and over
+B25117_001,Total
+B25117_002,Owner occupied
+B25117_003,Utility gas
+B25117_004,"Bottled, tank, or LP gas"
+B25117_005,Electricity
+B25117_006,"Fuel oil, kerosene, etc."
+B25117_007,Coal or coke
+B25117_008,Wood
+B25117_009,Solar energy
+B25117_010,Other fuel
+B25117_011,No fuel used
+B25117_012,Renter occupied
+B25117_013,Utility gas
+B25117_014,"Bottled, tank, or LP gas"
+B25117_015,Electricity
+B25117_016,"Fuel oil, kerosene, etc."
+B25117_017,Coal or coke
+B25117_018,Wood
+B25117_019,Solar energy
+B25117_020,Other fuel
+B25117_021,No fuel used
+B25118_001,Total
+B25118_002,Owner occupied
+B25118_003,"Less than $5,000"
+B25118_004,"$5,000 to $9,999"
+B25118_005,"$10,000 to $14,999"
+B25118_006,"$15,000 to $19,999"
+B25118_007,"$20,000 to $24,999"
+B25118_008,"$25,000 to $34,999"
+B25118_009,"$35,000 to $49,999"
+B25118_010,"$50,000 to $74,999"
+B25118_011,"$75,000 to $99,999"
+B25118_012,"$100,000 to $149,999"
+B25118_013,"$150,000 or more"
+B25118_014,Renter occupied
+B25118_015,"Less than $5,000"
+B25118_016,"$5,000 to $9,999"
+B25118_017,"$10,000 to $14,999"
+B25118_018,"$15,000 to $19,999"
+B25118_019,"$20,000 to $24,999"
+B25118_020,"$25,000 to $34,999"
+B25118_021,"$35,000 to $49,999"
+B25118_022,"$50,000 to $74,999"
+B25118_023,"$75,000 to $99,999"
+B25118_024,"$100,000 to $149,999"
+B25118_025,"$150,000 or more"
+B25119_001,Total
+B25119_002,Owner occupied (dollars)
+B25119_003,Renter occupied (dollars)
+B25120_001,Aggregate household income in the past 12 months (in 2021 inflation-adjusted dollars)
+B25120_002,Owner occupied 
+B25120_003,Housing units with a mortgage
+B25120_004,Housing units without a mortgage
+B25120_005,Renter occupied
+B25121_001,Total
+B25121_002,"Less than $10,000"
+B25121_003,"Value less than $10,000"
+B25121_004,"Value $10,000 to $19,999"
+B25121_005,"Value $20,000 to $29,999"
+B25121_006,"Value $30,000 to $39,999"
+B25121_007,"Value $40,000 to $49,999"
+B25121_008,"Value $50,000 to $59,999"
+B25121_009,"Value $60,000 to $69,999"
+B25121_010,"Value $70,000 to $79,999"
+B25121_011,"Value $80,000 to $89,999"
+B25121_012,"Value $90,000 to $99,999"
+B25121_013,"Value $100,000 to $199,999"
+B25121_014,"Value $200,000 to $249,999"
+B25121_015,"Value $250,000 to $499,999"
+B25121_016,"Value $500,000 or more"
+B25121_017,"$10,000 to $19,999"
+B25121_018,"Value less than $10,000"
+B25121_019,"Value $10,000 to $19,999"
+B25121_020,"Value $20,000 to $29,999"
+B25121_021,"Value $30,000 to $39,999"
+B25121_022,"Value $40,000 to $49,999"
+B25121_023,"Value $50,000 to $59,999"
+B25121_024,"Value $60,000 to $69,999"
+B25121_025,"Value $70,000 to $79,999"
+B25121_026,"Value $80,000 to $89,999"
+B25121_027,"Value $90,000 to $99,999"
+B25121_028,"Value $100,000 to $199,999"
+B25121_029,"Value $200,000 to $249,999"
+B25121_030,"Value $250,000 to $499,999"
+B25121_031,"Value $500,000 or more"
+B25121_032,"$20,000 to $34,999"
+B25121_033,"Value less than $10,000"
+B25121_034,"Value $10,000 to $19,999"
+B25121_035,"Value $20,000 to $29,999"
+B25121_036,"Value $30,000 to $39,999"
+B25121_037,"Value $40,000 to $49,999"
+B25121_038,"Value $50,000 to $59,999"
+B25121_039,"Value $60,000 to $69,999"
+B25121_040,"Value $70,000 to $79,999"
+B25121_041,"Value $80,000 to $89,999"
+B25121_042,"Value $90,000 to $99,999"
+B25121_043,"Value $100,000 to $199,999"
+B25121_044,"Value $200,000 to $249,999"
+B25121_045,"Value $250,000 to $499,999"
+B25121_046,"Value $500,000 or more"
+B25121_047,"$35,000 to $49,999"
+B25121_048,"Value less than $10,000"
+B25121_049,"Value $10,000 to $19,999"
+B25121_050,"Value $20,000 to $29,999"
+B25121_051,"Value $30,000 to $39,999"
+B25121_052,"Value $40,000 to $49,999"
+B25121_053,"Value $50,000 to $59,999"
+B25121_054,"Value $60,000 to $69,999"
+B25121_055,"Value $70,000 to $79,999"
+B25121_056,"Value $80,000 to $89,999"
+B25121_057,"Value $90,000 to $99,999"
+B25121_058,"Value $100,000 to $199,999"
+B25121_059,"Value $200,000 to $249,999"
+B25121_060,"Value $250,000 to $499,999"
+B25121_061,"Value $500,000 or more"
+B25121_062,"$50,000 to $74,999"
+B25121_063,"Value less than $10,000"
+B25121_064,"Value $10,000 to $19,999"
+B25121_065,"Value $20,000 to $29,999"
+B25121_066,"Value $30,000 to $39,999"
+B25121_067,"Value $40,000 to $49,999"
+B25121_068,"Value $50,000 to $59,999"
+B25121_069,"Value $60,000 to $69,999"
+B25121_070,"Value $70,000 to $79,999"
+B25121_071,"Value $80,000 to $89,999"
+B25121_072,"Value $90,000 to $99,999"
+B25121_073,"Value $100,000 to $199,999"
+B25121_074,"Value $200,000 to $249,999"
+B25121_075,"Value $250,000 to $499,999"
+B25121_076,"Value $500,000 or more"
+B25121_077,"$75,000 to $99,999"
+B25121_078,"Value less than $10,000"
+B25121_079,"Value $10,000 to $19,999"
+B25121_080,"Value $20,000 to $29,999"
+B25121_081,"Value $30,000 to $39,999"
+B25121_082,"Value $40,000 to $49,999"
+B25121_083,"Value $50,000 to $59,999"
+B25121_084,"Value $60,000 to $69,999"
+B25121_085,"Value $70,000 to $79,999"
+B25121_086,"Value $80,000 to $89,999"
+B25121_087,"Value $90,000 to $99,999"
+B25121_088,"Value $100,000 to $199,999"
+B25121_089,"Value $200,000 to $249,999"
+B25121_090,"Value $250,000 to $499,999"
+B25121_091,"Value $500,000 or more"
+B25121_092,"$100,000 or more"
+B25121_093,"Value less than $10,000"
+B25121_094,"Value $10,000 to $19,999"
+B25121_095,"Value $20,000 to $29,999"
+B25121_096,"Value $30,000 to $39,999"
+B25121_097,"Value $40,000 to $49,999"
+B25121_098,"Value $50,000 to $59,999"
+B25121_099,"Value $60,000 to $69,999"
+B25121_100,"Value $70,000 to $79,999"
+B25121_101,"Value $80,000 to $89,999"
+B25121_102,"Value $90,000 to $99,999"
+B25121_103,"Value $100,000 to $199,999"
+B25121_104,"Value $200,000 to $249,999"
+B25121_105,"Value $250,000 to $499,999"
+B25121_106,"Value $500,000 or more"
+B25122_001,Total
+B25122_002,"Less than $10,000"
+B25122_003,With cash rent
+B25122_004,Less than $100
+B25122_005,$100 to $199
+B25122_006,$200 to $299
+B25122_007,$300 to $399
+B25122_008,$400 to $499
+B25122_009,$500 to $599
+B25122_010,$600 to $699
+B25122_011,$700 to $799
+B25122_012,$800 to $899
+B25122_013,$900 to $999
+B25122_014,"$1,000 to $1,249"
+B25122_015,"$1,250 to $1,499"
+B25122_016,"$1,500 to $1,999"
+B25122_017,"$2,000 or more"
+B25122_018,No cash rent
+B25122_019,"$10,000 to $19,999"
+B25122_020,With cash rent
+B25122_021,Less than $100
+B25122_022,$100 to $199
+B25122_023,$200 to $299
+B25122_024,$300 to $399
+B25122_025,$400 to $499
+B25122_026,$500 to $599
+B25122_027,$600 to $699
+B25122_028,$700 to $799
+B25122_029,$800 to $899
+B25122_030,$900 to $999
+B25122_031,"$1,000 to $1,249"
+B25122_032,"$1,250 to $1,499"
+B25122_033,"$1,500 to $1,999"
+B25122_034,"$2,000 or more"
+B25122_035,No cash rent
+B25122_036,"$20,000 to $34,999"
+B25122_037,With cash rent
+B25122_038,Less than $100
+B25122_039,$100 to $199
+B25122_040,$200 to $299
+B25122_041,$300 to $399
+B25122_042,$400 to $499
+B25122_043,$500 to $599
+B25122_044,$600 to $699
+B25122_045,$700 to $799
+B25122_046,$800 to $899
+B25122_047,$900 to $999
+B25122_048,"$1,000 to $1,249"
+B25122_049,"$1,250 to $1,499"
+B25122_050,"$1,500 to $1,999"
+B25122_051,"$2,000 or more"
+B25122_052,No cash rent
+B25122_053,"$35,000 to $49,999"
+B25122_054,With cash rent
+B25122_055,Less than $100
+B25122_056,$100 to $199
+B25122_057,$200 to $299
+B25122_058,$300 to $399
+B25122_059,$400 to $499
+B25122_060,$500 to $599
+B25122_061,$600 to $699
+B25122_062,$700 to $799
+B25122_063,$800 to $899
+B25122_064,$900 to $999
+B25122_065,"$1,000 to $1,249"
+B25122_066,"$1,250 to $1,499"
+B25122_067,"$1,500 to $1,999"
+B25122_068,"$2,000 or more"
+B25122_069,No cash rent
+B25122_070,"$50,000 to $74,999"
+B25122_071,With cash rent
+B25122_072,Less than $100
+B25122_073,$100 to $199
+B25122_074,$200 to $299
+B25122_075,$300 to $399
+B25122_076,$400 to $499
+B25122_077,$500 to $599
+B25122_078,$600 to $699
+B25122_079,$700 to $799
+B25122_080,$800 to $899
+B25122_081,$900 to $999
+B25122_082,"$1,000 to $1,249"
+B25122_083,"$1,250 to $1,499"
+B25122_084,"$1,500 to $1,999"
+B25122_085,"$2,000 or more"
+B25122_086,No cash rent
+B25122_087,"$75,000 to $99,999"
+B25122_088,With cash rent
+B25122_089,Less than $100
+B25122_090,$100 to $199
+B25122_091,$200 to $299
+B25122_092,$300 to $399
+B25122_093,$400 to $499
+B25122_094,$500 to $599
+B25122_095,$600 to $699
+B25122_096,$700 to $799
+B25122_097,$800 to $899
+B25122_098,$900 to $999
+B25122_099,"$1,000 to $1,249"
+B25122_100,"$1,250 to $1,499"
+B25122_101,"$1,500 to $1,999"
+B25122_102,"$2,000 or more"
+B25122_103,No cash rent
+B25122_104,"$100,000 or more"
+B25122_105,With cash rent
+B25122_106,Less than $100
+B25122_107,$100 to $199
+B25122_108,$200 to $299
+B25122_109,$300 to $399
+B25122_110,$400 to $499
+B25122_111,$500 to $599
+B25122_112,$600 to $699
+B25122_113,$700 to $799
+B25122_114,$800 to $899
+B25122_115,$900 to $999
+B25122_116,"$1,000 to $1,249"
+B25122_117,"$1,250 to $1,499"
+B25122_118,"$1,500 to $1,999"
+B25122_119,"$2,000 or more"
+B25122_120,No cash rent
+B25123_001,Total
+B25123_002,Owner occupied
+B25123_003,With one selected condition
+B25123_004,With two selected conditions
+B25123_005,With three selected conditions
+B25123_006,With four selected conditions
+B25123_007,No selected conditions
+B25123_008,Renter occupied
+B25123_009,With one selected condition
+B25123_010,With two selected conditions
+B25123_011,With three selected conditions
+B25123_012,With four selected conditions
+B25123_013,No selected conditions
+B25124_001,Total
+B25124_002,Owner occupied
+B25124_003,1-person household
+B25124_004,"1, detached  or attached"
+B25124_005,2 to 4
+B25124_006,5 to 19
+B25124_007,20 to 49
+B25124_008,50 or more
+B25124_009,"Mobile home, boat, RV, van, etc."
+B25124_010,2-person household
+B25124_011,"1, detached  or attached"
+B25124_012,2 to 4
+B25124_013,5 to 19
+B25124_014,20 to 49
+B25124_015,50 or more
+B25124_016,"Mobile home, boat, RV, van, etc."
+B25124_017,3-person household
+B25124_018,"1, detached  or attached"
+B25124_019,2 to 4
+B25124_020,5 to 19
+B25124_021,20 to 49
+B25124_022,50 or more
+B25124_023,"Mobile home, boat, RV, van, etc."
+B25124_024,4-person household
+B25124_025,"1, detached  or attached"
+B25124_026,2 to 4
+B25124_027,5 to 19
+B25124_028,20 to 49
+B25124_029,50 or more
+B25124_030,"Mobile home, boat, RV, van, etc."
+B25124_031,5-or-more person household
+B25124_032,"1, detached  or attached"
+B25124_033,2 to 4
+B25124_034,5 to 19
+B25124_035,20 to 49
+B25124_036,50 or more
+B25124_037,"Mobile home, boat, RV, van, etc."
+B25124_038,Renter occupied
+B25124_039,1-person household
+B25124_040,"1, detached  or attached"
+B25124_041,2 to 4
+B25124_042,5 to 19
+B25124_043,20 to 49
+B25124_044,50 or more
+B25124_045,"Mobile home, boat, RV, van, etc."
+B25124_046,2-person household
+B25124_047,"1, detached  or attached"
+B25124_048,2 to 4
+B25124_049,5 to 19
+B25124_050,20 to 49
+B25124_051,50 or more
+B25124_052,"Mobile home, boat, RV, van, etc."
+B25124_053,3-person household
+B25124_054,"1, detached  or attached"
+B25124_055,2 to 4
+B25124_056,5 to 19
+B25124_057,20 to 49
+B25124_058,50 or more
+B25124_059,"Mobile home, boat, RV, van, etc."
+B25124_060,4-person household
+B25124_061,"1, detached  or attached"
+B25124_062,2 to 4
+B25124_063,5 to 19
+B25124_064,20 to 49
+B25124_065,50 or more
+B25124_066,"Mobile home, boat, RV, van, etc."
+B25124_067,5-or-more person household
+B25124_068,"1, detached  or attached"
+B25124_069,2 to 4
+B25124_070,5 to 19
+B25124_071,20 to 49
+B25124_072,50 or more
+B25124_073,"Mobile home, boat, RV, van, etc."
+B25125_001,Total
+B25125_002,Owner occupied
+B25125_003,Householder 15 to 34 years
+B25125_004,"1, detached  or attached"
+B25125_005,2 to 4
+B25125_006,5 to 19
+B25125_007,20 to 49
+B25125_008,50 or more
+B25125_009,"Mobile home, boat, RV, van, etc."
+B25125_010,Householder 35 to 64 years
+B25125_011,"1, detached  or attached"
+B25125_012,2 to 4
+B25125_013,5 to 19
+B25125_014,20 to 49
+B25125_015,50 or more
+B25125_016,"Mobile home, boat, RV, van, etc."
+B25125_017,Householder 65 years and over
+B25125_018,"1, detached  or attached"
+B25125_019,2 to 4
+B25125_020,5 to 19
+B25125_021,20 to 49
+B25125_022,50 or more
+B25125_023,"Mobile home, boat, RV, van, etc."
+B25125_024,Renter occupied
+B25125_025,Householder 15 to 34 years
+B25125_026,"1, detached  or attached"
+B25125_027,2 to 4
+B25125_028,5 to 19
+B25125_029,20 to 49
+B25125_030,50 or more
+B25125_031,"Mobile home, boat, RV, van, etc."
+B25125_032,Householder 35 to 64 years
+B25125_033,"1, detached  or attached"
+B25125_034,2 to 4
+B25125_035,5 to 19
+B25125_036,20 to 49
+B25125_037,50 or more
+B25125_038,"Mobile home, boat, RV, van, etc."
+B25125_039,Householder 65 years and over
+B25125_040,"1, detached  or attached"
+B25125_041,2 to 4
+B25125_042,5 to 19
+B25125_043,20 to 49
+B25125_044,50 or more
+B25125_045,"Mobile home, boat, RV, van, etc."
+B25126_001,Total
+B25126_002,Owner occupied
+B25126_003,Householder 15 to 34 years
+B25126_004,Built 2020 or later
+B25126_005,Built 2010 to 2019
+B25126_006,Built 2000 to 2009
+B25126_007,Built 1990 to 1999
+B25126_008,Built 1980 to 1989
+B25126_009,Built 1970 to 1979
+B25126_010,Built 1960 to 1969
+B25126_011,Built 1950 to 1959
+B25126_012,Built 1940 to 1949
+B25126_013,Built 1939 or earlier
+B25126_014,Householder 35 to 64 years
+B25126_015,Built 2020 or later
+B25126_016,Built 2010 to 2019
+B25126_017,Built 2000 to 2009
+B25126_018,Built 1990 to 1999
+B25126_019,Built 1980 to 1989
+B25126_020,Built 1970 to 1979
+B25126_021,Built 1960 to 1969
+B25126_022,Built 1950 to 1959
+B25126_023,Built 1940 to 1949
+B25126_024,Built 1939 or earlier
+B25126_025,Householder 65 years and over
+B25126_026,Built 2020 or later
+B25126_027,Built 2010 to 2019
+B25126_028,Built 2000 to 2009
+B25126_029,Built 1990 to 1999
+B25126_030,Built 1980 to 1989
+B25126_031,Built 1970 to 1979
+B25126_032,Built 1960 to 1969
+B25126_033,Built 1950 to 1959
+B25126_034,Built 1940 to 1949
+B25126_035,Built 1939 or earlier
+B25126_036,Renter occupied
+B25126_037,Householder 15 to 34 years
+B25126_038,Built 2020 or later
+B25126_039,Built 2010 to 2019
+B25126_040,Built 2000 to 2009
+B25126_041,Built 1990 to 1999
+B25126_042,Built 1980 to 1989
+B25126_043,Built 1970 to 1979
+B25126_044,Built 1960 to 1969
+B25126_045,Built 1950 to 1959
+B25126_046,Built 1940 to 1949
+B25126_047,Built 1939 or earlier
+B25126_048,Householder 35 to 64 years
+B25126_049,Built 2020 or later
+B25126_050,Built 2010 to 2019
+B25126_051,Built 2000 to 2009
+B25126_052,Built 1990 to 1999
+B25126_053,Built 1980 to 1989
+B25126_054,Built 1970 to 1979
+B25126_055,Built 1960 to 1969
+B25126_056,Built 1950 to 1959
+B25126_057,Built 1940 to 1949
+B25126_058,Built 1939 or earlier
+B25126_059,Householder 65 years and over
+B25126_060,Built 2020 or later
+B25126_061,Built 2010 to 2019
+B25126_062,Built 2000 to 2009
+B25126_063,Built 1990 to 1999
+B25126_064,Built 1980 to 1989
+B25126_065,Built 1970 to 1979
+B25126_066,Built 1960 to 1969
+B25126_067,Built 1950 to 1959
+B25126_068,Built 1940 to 1949
+B25126_069,Built 1939 or earlier
+B25127_001,Total
+B25127_002,Owner occupied
+B25127_003,Built 2020 or later
+B25127_004,"1, detached  or attached"
+B25127_005,2 to 4
+B25127_006,5 to 19
+B25127_007,20 to 49
+B25127_008,50 or more
+B25127_009,"Mobile home, boat, RV, van, etc."
+B25127_010,Built 2000 to 2019
+B25127_011,"1, detached  or attached"
+B25127_012,2 to 4
+B25127_013,5 to 19
+B25127_014,20 to 49
+B25127_015,50 or more
+B25127_016,"Mobile home, boat, RV, van, etc."
+B25127_017,Built 1980 to 1999
+B25127_018,"1, detached  or attached"
+B25127_019,2 to 4
+B25127_020,5 to 19
+B25127_021,20 to 49
+B25127_022,50 or more
+B25127_023,"Mobile home, boat, RV, van, etc."
+B25127_024,Built 1960 to 1979
+B25127_025,"1, detached  or attached"
+B25127_026,2 to 4
+B25127_027,5 to 19
+B25127_028,20 to 49
+B25127_029,50 or more
+B25127_030,"Mobile home, boat, RV, van, etc."
+B25127_031,Built 1940 to 1959
+B25127_032,"1, detached  or attached"
+B25127_033,2 to 4
+B25127_034,5 to 19
+B25127_035,20 to 49
+B25127_036,50 or more
+B25127_037,"Mobile home, boat, RV, van, etc."
+B25127_038,Built 1939 or earlier
+B25127_039,"1, detached  or attached"
+B25127_040,2 to 4
+B25127_041,5 to 19
+B25127_042,20 to 49
+B25127_043,50 or more
+B25127_044,"Mobile home, boat, RV, van, etc."
+B25127_045,Renter occupied
+B25127_046,Built 2020 or later
+B25127_047,"1, detached  or attached"
+B25127_048,2 to 4
+B25127_049,5 to 19
+B25127_050,20 to 49
+B25127_051,50 or more
+B25127_052,"Mobile home, boat, RV, van, etc."
+B25127_053,Built 2000 to 2019
+B25127_054,"1, detached  or attached"
+B25127_055,2 to 4
+B25127_056,5 to 19
+B25127_057,20 to 49
+B25127_058,50 or more
+B25127_059,"Mobile home, boat, RV, van, etc."
+B25127_060,Built 1980 to 1999
+B25127_061,"1, detached  or attached"
+B25127_062,2 to 4
+B25127_063,5 to 19
+B25127_064,20 to 49
+B25127_065,50 or more
+B25127_066,"Mobile home, boat, RV, van, etc."
+B25127_067,Built 1960 to 1979
+B25127_068,"1, detached  or attached"
+B25127_069,2 to 4
+B25127_070,5 to 19
+B25127_071,20 to 49
+B25127_072,50 or more
+B25127_073,"Mobile home, boat, RV, van, etc."
+B25127_074,Built 1940 to 1959
+B25127_075,"1, detached  or attached"
+B25127_076,2 to 4
+B25127_077,5 to 19
+B25127_078,20 to 49
+B25127_079,50 or more
+B25127_080,"Mobile home, boat, RV, van, etc."
+B25127_081,Built 1939 or earlier
+B25127_082,"1, detached  or attached"
+B25127_083,2 to 4
+B25127_084,5 to 19
+B25127_085,20 to 49
+B25127_086,50 or more
+B25127_087,"Mobile home, boat, RV, van, etc."
+B25128_001,Total
+B25128_002,Owner occupied
+B25128_003,Householder 15 to 34 years
+B25128_004,Moved in 2019 or later
+B25128_005,Moved in 2015 to 2018
+B25128_006,Moved in 2010 to 2014
+B25128_007,Moved in 2000 to 2009
+B25128_008,Moved in 1990 to 1999
+B25128_009,Moved in 1989 or earlier
+B25128_010,Householder 35 to 64 years
+B25128_011,Moved in 2019 or later
+B25128_012,Moved in 2015 to 2018
+B25128_013,Moved in 2010 to 2014
+B25128_014,Moved in 2000 to 2009
+B25128_015,Moved in 1990 to 1999
+B25128_016,Moved in 1989 or earlier
+B25128_017,Householder 65 years and over
+B25128_018,Moved in 2019 or later
+B25128_019,Moved in 2015 to 2018
+B25128_020,Moved in 2010 to 2014
+B25128_021,Moved in 2000 to 2009
+B25128_022,Moved in 1990 to 1999
+B25128_023,Moved in 1989 or earlier
+B25128_024,Renter occupied
+B25128_025,Householder 15 to 34 years
+B25128_026,Moved in 2019 or later
+B25128_027,Moved in 2015 to 2018
+B25128_028,Moved in 2010 to 2014
+B25128_029,Moved in 2000 to 2009
+B25128_030,Moved in 1990 to 1999
+B25128_031,Moved in 1989 or earlier
+B25128_032,Householder 35 to 64 years
+B25128_033,Moved in 2019 or later
+B25128_034,Moved in 2015 to 2018
+B25128_035,Moved in 2010 to 2014
+B25128_036,Moved in 2000 to 2009
+B25128_037,Moved in 1990 to 1999
+B25128_038,Moved in 1989 or earlier
+B25128_039,Householder 65 years and over
+B25128_040,Moved in 2019 or later
+B25128_041,Moved in 2015 to 2018
+B25128_042,Moved in 2010 to 2014
+B25128_043,Moved in 2000 to 2009
+B25128_044,Moved in 1990 to 1999
+B25128_045,Moved in 1989 or earlier
+B25129_001,Total
+B25129_002,Owner occupied
+B25129_003,Moved in 2015 or later
+B25129_004,"1, detached  or attached"
+B25129_005,2 to 4
+B25129_006,5 to 19
+B25129_007,20 to 49
+B25129_008,50 or more
+B25129_009,"Mobile home, boat, RV, van, etc."
+B25129_010,Moved in 2010 to 2014
+B25129_011,"1, detached  or attached"
+B25129_012,2 to 4
+B25129_013,5 to 19
+B25129_014,20 to 49
+B25129_015,50 or more
+B25129_016,"Mobile home, boat, RV, van, etc."
+B25129_017,Moved in 2000 to 2009
+B25129_018,"1, detached  or attached"
+B25129_019,2 to 4
+B25129_020,5 to 19
+B25129_021,20 to 49
+B25129_022,50 or more
+B25129_023,"Mobile home, boat, RV, van, etc."
+B25129_024,Moved in 1990 to 1999
+B25129_025,"1, detached  or attached"
+B25129_026,2 to 4
+B25129_027,5 to 19
+B25129_028,20 to 49
+B25129_029,50 or more
+B25129_030,"Mobile home, boat, RV, van, etc."
+B25129_031,Moved in 1989 or earlier
+B25129_032,"1, detached  or attached"
+B25129_033,2 to 4
+B25129_034,5 to 19
+B25129_035,20 to 49
+B25129_036,50 or more
+B25129_037,"Mobile home, boat, RV, van, etc."
+B25129_038,Renter occupied
+B25129_039,Moved in 2015 or later
+B25129_040,"1, detached  or attached"
+B25129_041,2 to 4
+B25129_042,5 to 19
+B25129_043,20 to 49
+B25129_044,50 or more
+B25129_045,"Mobile home, boat, RV, van, etc."
+B25129_046,Moved in 2010 to 2014
+B25129_047,"1, detached  or attached"
+B25129_048,2 to 4
+B25129_049,5 to 19
+B25129_050,20 to 49
+B25129_051,50 or more
+B25129_052,"Mobile home, boat, RV, van, etc."
+B25129_053,Moved in 2000 to 2009
+B25129_054,"1, detached  or attached"
+B25129_055,2 to 4
+B25129_056,5 to 19
+B25129_057,20 to 49
+B25129_058,50 or more
+B25129_059,"Mobile home, boat, RV, van, etc."
+B25129_060,Moved in 1990 to 1999
+B25129_061,"1, detached  or attached"
+B25129_062,2 to 4
+B25129_063,5 to 19
+B25129_064,20 to 49
+B25129_065,50 or more
+B25129_066,"Mobile home, boat, RV, van, etc."
+B25129_067,Moved in 1989 or earlier
+B25129_068,"1, detached  or attached"
+B25129_069,2 to 4
+B25129_070,5 to 19
+B25129_071,20 to 49
+B25129_072,50 or more
+B25129_073,"Mobile home, boat, RV, van, etc."
+B25130_001,Total
+B25130_002,Foreclosure
+B25130_003,Personal/Family reasons
+B25130_004,Legal proceedings
+B25130_005,Preparing to rent/sell
+B25130_006,Held for storage of furniture
+B25130_007,Needs repairs
+B25130_008,Currently being repaired/renovated
+B25130_009,Specific use housing
+B25130_010,Extended absence
+B25130_011,Abandoned/Possibly condemned
+B25130_012,Other
+B25131_001,Total
+B25131_002,Less than 1 month
+B25131_003,1 to 2 months
+B25131_004,2 to 4 months
+B25131_005,4 to 6 months
+B25131_006,6 to 12 months
+B25131_007,12 to 24 months
+B25131_008,24 or more months
+B25132_001,Total
+B25132_002,"Not charged, not used, or payment included in other fees"
+B25132_003,Charged for electricity
+B25132_004,Less than $50
+B25132_005,$50 to $99
+B25132_006,$100 to $149
+B25132_007,$150 to $199
+B25132_008,$200 to $249
+B25132_009,$250 or more
+B25133_001,Total
+B25133_002,"Not charged, not used, or payment included in other fees"
+B25133_003,Charged for gas
+B25133_004,Less than $25
+B25133_005,$25 to $49
+B25133_006,$50 to $74
+B25133_007,$75 to $99
+B25133_008,$100 to $149
+B25133_009,$150 or more
+B25134_001,Total
+B25134_002,Not charged or payment included in other fees
+B25134_003,Charged for water and sewer
+B25134_004,Less than $125
+B25134_005,$125 to $249
+B25134_006,$250 to $499
+B25134_007,$500 to $749
+B25134_008,$750 to $999
+B25134_009,"$1,000 or more"
+B25135_001,Total
+B25135_002,"Not charged, not used, or payment included in other fees"
+B25135_003,Charged for other fuels
+B25135_004,Less than $250
+B25135_005,$250 to $749
+B25135_006,$750 or more
+C25004_001,Total
+C25004_002,"For rent, for sale only, and rented or sold, not occupied"
+C25004_003,All other vacant units
+C25032_001,Total
+C25032_002,Owner-occupied housing units
+C25032_003,"1, detached or attached"
+C25032_004,2 to 9 units
+C25032_005,10 or more units
+C25032_006,Mobile home and all other types of units
+C25032_007,Renter-occupied housing units
+C25032_008,"1, detached or attached"
+C25032_009,2 to 9 units
+C25032_010,10 or more units
+C25032_011,Mobile home and all other types of units
+C25033_001,Total
+C25033_002,Owner occupied
+C25033_003,"1, detached or attached"
+C25033_004,2 or more
+C25033_005,"Mobile home, boat, RV, van, etc."
+C25033_006,Renter occupied
+C25033_007,"1, detached or attached"
+C25033_008,2 or more
+C25033_009,"Mobile home, boat, RV, van, etc."
+C25045_001,Total
+C25045_002,Owner occupied
+C25045_003,No vehicle available
+C25045_004,1 or more vehicles available
+C25045_005,Renter occupied
+C25045_006,No vehicle available
+C25045_007,1 or more vehicles available
+C25055_001,Total
+C25055_002,Householder 15 to 54 years
+C25055_003,Householder 55 to 64 years
+C25055_004,Householder 65 to 74 years
+C25055_005,Householder 75 years and over
+C25056_001,Total
+C25056_002,With cash rent
+C25056_003,Less than $200
+C25056_004,$200 to $299
+C25056_005,$300 to $499
+C25056_006,$500 to $749
+C25056_007,$750 to $999
+C25056_008,"$1,000 or more"
+C25056_009,No cash rent
+C25068_001,Total
+C25068_002,No bedroom
+C25068_003,With cash rent
+C25068_004,Less than $500
+C25068_005,$500 or more
+C25068_006,No cash rent
+C25068_007,1 bedroom
+C25068_008,With cash rent
+C25068_009,Less than $500
+C25068_010,$500 or more
+C25068_011,No cash rent
+C25068_012,2 bedrooms
+C25068_013,With cash rent
+C25068_014,Less than $500
+C25068_015,$500 or more
+C25068_016,No cash rent
+C25068_017,3 or more bedrooms
+C25068_018,With cash rent
+C25068_019,Less than $500
+C25068_020,$500 or more
+C25068_021,No cash rent
+C25074_001,Total
+C25074_002,"Less than $10,000"
+C25074_003,Less than 30.0 percent
+C25074_004,30.0 percent or more
+C25074_005,Not computed
+C25074_006,"$10,000 to $19,999"
+C25074_007,Less than 30.0 percent
+C25074_008,30.0 percent or more
+C25074_009,Not computed
+C25074_010,"$20,000 to $34,999"
+C25074_011,Less than 30.0 percent
+C25074_012,30.0 percent or more
+C25074_013,Not computed
+C25074_014,"$35,000 to $49,999"
+C25074_015,Less than 30.0 percent
+C25074_016,30.0 percent or more
+C25074_017,Not computed
+C25074_018,"$50,000 to $74,999"
+C25074_019,Less than 30.0 percent
+C25074_020,30.0 percent or more
+C25074_021,Not computed
+C25074_022,"$75,000 or more"
+C25074_023,Less than 30.0 percent
+C25074_024,30.0 percent or more
+C25074_025,Not computed
+C25075_001,Total
+C25075_002,"Less than $50,000"
+C25075_003,"$50,000 to $99,999"
+C25075_004,"$100,000 to $149,999"
+C25075_005,"$150,000 to $199,999"
+C25075_006,"$200,000 to $299,999"
+C25075_007,"$300,000 to $499,999"
+C25075_008,"$500,000 to $999,999"
+C25075_009,"$1,000,000 or more"
+C25085_001,Total
+C25085_002,"Less than $60,000"
+C25085_003,"$60,000 to $99,999"
+C25085_004,"$100,000 to $149,999"
+C25085_005,"$150,000 to $199,999"
+C25085_006,"$200,000 to $299,999"
+C25085_007,"$300,000 to $499,999"
+C25085_008,"$500,000 or more"
+C25093_001,Total
+C25093_002,Householder 15 to 24 years
+C25093_003,Less than 30.0 percent
+C25093_004,30.0 percent or more
+C25093_005,Not computed
+C25093_006,Householder 25 to 34 years
+C25093_007,Less than 30.0 percent
+C25093_008,30.0 percent or more
+C25093_009,Not computed
+C25093_010,Householder 35 to 64 years
+C25093_011,Less than 30.0 percent
+C25093_012,30.0 percent or more
+C25093_013,Not computed
+C25093_014,Householder 65 years and over
+C25093_015,Less than 30.0 percent
+C25093_016,30.0 percent or more
+C25093_017,Not computed
+C25095_001,Total
+C25095_002,"Less than $10,000"
+C25095_003,Less than 30.0 percent
+C25095_004,30.0 percent or more
+C25095_005,Not computed
+C25095_006,"$10,000 to $19,999"
+C25095_007,Less than 30.0 percent
+C25095_008,30.0 percent or more
+C25095_009,Not computed
+C25095_010,"$20,000 to $34,999"
+C25095_011,Less than 30.0 percent
+C25095_012,30.0 percent or more
+C25095_013,Not computed
+C25095_014,"$35,000 to $49,999"
+C25095_015,Less than 30.0 percent
+C25095_016,30.0 percent or more
+C25095_017,Not computed
+C25095_018,"$50,000 to $74,999"
+C25095_019,Less than 30.0 percent
+C25095_020,30.0 percent or more
+C25095_021,Not computed
+C25095_022,"$75,000 to $99,999"
+C25095_023,Less than 30.0 percent
+C25095_024,30.0 percent or more
+C25095_025,Not computed
+C25095_026,"$100,000 or more"
+C25095_027,Less than 30.0 percent
+C25095_028,30.0 percent or more
+C25095_029,Not computed
+C25121_001,Total
+C25121_002,"Less than $10,000"
+C25121_003,"Value less than $60,000"
+C25121_004,"Value $60,000 to $99,999"
+C25121_005,"Value $100,000 to $199,999"
+C25121_006,"Value $200,000 or more"
+C25121_007,"$10,000 to $19,999"
+C25121_008,"Value less than $60,000"
+C25121_009,"Value $60,000 to $99,999"
+C25121_010,"Value $100,000 to $199,999"
+C25121_011,"Value $200,000 or more"
+C25121_012,"$20,000 to $34,999"
+C25121_013,"Value less than $60,000"
+C25121_014,"Value $60,000 to $99,999"
+C25121_015,"Value $100,000 to $199,999"
+C25121_016,"Value $200,000 or more"
+C25121_017,"$35,000 to $49,999"
+C25121_018,"Value less than $60,000"
+C25121_019,"Value $60,000 to $99,999"
+C25121_020,"Value $100,000 to $199,999"
+C25121_021,"Value $200,000 or more"
+C25121_022,"$50,000 to $74,999"
+C25121_023,"Value less than $60,000"
+C25121_024,"Value $60,000 to $99,999"
+C25121_025,"Value $100,000 to $199,999"
+C25121_026,"Value $200,000 or more"
+C25121_027,"$75,000 or more"
+C25121_028,"Value less than $60,000"
+C25121_029,"Value $60,000 to $99,999"
+C25121_030,"Value $100,000 to $199,999"
+C25121_031,"Value $200,000 or more"
+C25122_001,Total
+C25122_002,"Less than $10,000"
+C25122_003,Less than $500
+C25122_004,$500 to $999
+C25122_005,"$1,000 or more"
+C25122_006,No cash rent
+C25122_007,"$10,000 to $19,999"
+C25122_008,Less than $500
+C25122_009,$500 to $999
+C25122_010,"$1,000 or more"
+C25122_011,No cash rent
+C25122_012,"$20,000 to $34,999"
+C25122_013,Less than $500
+C25122_014,$500 to $999
+C25122_015,"$1,000 or more"
+C25122_016,No cash rent
+C25122_017,"$35,000 to $49,999"
+C25122_018,Less than $500
+C25122_019,$500 to $999
+C25122_020,"$1,000 or more"
+C25122_021,No cash rent
+C25122_022,"$50,000 to $74,999"
+C25122_023,Less than $500
+C25122_024,$500 to $999
+C25122_025,"$1,000 or more"
+C25122_026,No cash rent
+C25122_027,"$75,000 or more"
+C25122_028,Less than $500
+C25122_029,$500 to $999
+C25122_030,"$1,000 or more"
+C25122_031,No cash rent
