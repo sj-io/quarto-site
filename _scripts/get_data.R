@@ -17,7 +17,7 @@ acs1_single <- map_dfr(y_ACS1, ~ {
   get_acs(
     geography = "place",
     state = "TN",
-    variables = "B25092_001",
+    variables = "B25001_001",
     year = .x,
     survey = "acs1"
   )
@@ -28,4 +28,6 @@ acs1_single_update <- read_csv("_data/acs1_single.csv") %>%
   rbind(acs1_single) %>% 
   mutate(yr = as.numeric(yr))
 
-write_csv(acs1_single_new, "_data/acs1_single.csv")
+write_csv(acs1_single_update, "_data/acs1_single.csv")
+
+rm(acs1_single, acs1_single_update)

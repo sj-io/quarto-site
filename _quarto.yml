@@ -10,6 +10,7 @@ website:
         - index.qmd
         - section: "Housing"
           contents: 
+            - housing/hsg-units.qmd
             - housing/hsg-costs.qmd
 
 format:

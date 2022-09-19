@@ -96,5 +96,12 @@
     "title": "Housing Costs",
     "section": "Median Housing Costs as a Percentage of Household Income",
     "text": "Median Housing Costs as a Percentage of Household Income"
+  },
+  {
+    "objectID": "housing/hsg-units.html",
+    "href": "housing/hsg-units.html",
+    "title": "Housing Units",
+    "section": "",
+    "text": "Housing Units"
   }
 ]

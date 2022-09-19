@@ -1,0 +1,31 @@
+---
+title: "Housing Units"
+execute: 
+  echo: false
+  warning: false
+---
+
+```{r}
+library(tidyverse)
+
+acs1 <- read_csv("../_data/acs1_single.csv")
+```
+
+# Housing Units
+
+```{r}
+hu <- acs1 %>% 
+  filter(variable == "B25001_001")
+
+hu %>% ggplot(aes(yr, estimate, group = 1)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous() +
+  scale_y_continuous(labels = scales::label_number(scale = .001, suffix = "K")) +
+  theme_minimal() +
+  labs(x = "", y = "",
+       title = "Number of Housing Units",
+       subtitle = "Memphis, TN (2005-2021)",
+       caption = "ACS 1-Year, 2005-2019, 2021 (B25001)")
+```
+

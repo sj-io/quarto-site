@@ -7,7 +7,7 @@ v_cat <- read_csv("_data/v_acs_categories.csv")
 
 # Get census variables
 v_acs1_21 <- read_csv("_data/v_acs1.csv")
-v_acs1_21 <- load_variables(2021, "acs1")
+# v_acs1_21 <- load_variables(2021, "acs1")
 
 # Join
 v_acs1_cat <- v_acs1_21 %>% 
@@ -16,14 +16,38 @@ v_acs1_cat <- v_acs1_21 %>%
   left_join(v_cat) %>% 
   select(category, concept, name, label)
 
+# Main variables, housing only
+v_hsg_long <- v_acs1_21 %>% 
+  filter(str_detect(name, "\\d_")) %>% 
+  mutate(v_start = str_extract_all(name, "^[:alnum:]{3}")) %>% 
+  unnest(v_start) %>% 
+  left_join(v_cat) %>% 
+  select(category, concept, name, label) %>% 
+  filter(str_detect(category, "Housing"))
+
 # Playing around with variables
 # Top-level variables
-top <- v_acs1_21 %>% 
-  filter(str_ends(name, "_001")) %>% 
-  select(-label)
+v_top <- v_acs1_21 %>% 
+  filter(str_ends(name, "_001"))
 
-short <- top %>% 
-  filter(!str_ends(name, "\\D_001"))
+# Main variables
+v_short <- v_top %>% 
+  filter(!str_ends(name, "\\D_001")) %>% 
+  mutate(v_start = str_extract_all(name, "^[:alnum:]{3}")) %>% 
+  unnest(v_start) %>% 
+  left_join(v_cat) %>% 
+  select(category, concept, name, label)
+
+# Main variables, housing only
+v_hsg_short <- v_short %>% 
+  filter(str_detect(category, "Housing"))
+
+# To-do
+v_done <- read_csv("_data/acs1_single.csv") %>% distinct(variable)
+v_todo_short <- v_hsg_short %>% 
+  anti_join(v_done, by = c("name" = "variable"))
+v_todo_long <- v_hsg_long %>% 
+  anti_join(v_done, by = c("name" = "variable"))
 
 # Over cleaning
 t1 <- v_acs1_21 %>% 
