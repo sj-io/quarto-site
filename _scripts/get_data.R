@@ -57,8 +57,8 @@ rm(acs1_multiple, acs1_multiple_update)
 acs1_multiple <- get_acs(
     geography = "place",
     state = "TN",
-    table = "B25130",
-    summary_var = "B25130_001",
+    table = "B25131",
+    summary_var = "B25131_001",
     year = 2021,
     survey = "acs1"
   ) %>%

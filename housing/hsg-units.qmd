@@ -92,24 +92,6 @@ vs %>% ggplot(aes(yr, estimate, fill = lab)) +
        caption = "ACS 1-Year, 2005-2019, 2021 (B25004)")
 ```
 
-### Other Vacancy Status
-
-```{r}
-ovs <- acs1_multi %>% 
-  filter(str_detect(variable, "B25130(?!_001)"))
-
-ovs %>% ggplot(aes(y = reorder(lab, estimate), 
-                   x = estimate)) +
-  geom_col() +
-  scale_x_continuous(labels = scales::label_number(scale = .001, suffix = "K")) +
-  scale_y_discrete() +
-  theme_minimal() +
-  labs(x = "", y = "", 
-       title = "Other Vacancy Status",
-       subtitle = "Memphis, TN (2021)",
-       caption = "ACS 1-Year, 2021 (B25130)")
-```
-
 ### Current Residence Elsewhere
 
 ```{r}
@@ -134,3 +116,39 @@ cre %>% ggplot(aes(yr, estimate, fill = lab)) +
        caption = "ACS 1-Year, 2005-2019, 2021 (B25005)")
 ```
 
+### Other Vacancy Status
+
+```{r}
+ovs <- acs1_multi %>% 
+  filter(str_detect(variable, "B25130(?!_001)"))
+
+ovs %>% ggplot(aes(y = reorder(lab, estimate), 
+                   x = estimate)) +
+  geom_col() +
+  scale_x_continuous(labels = scales::label_number(scale = .001, suffix = "K")) +
+  scale_y_discrete() +
+  theme_minimal() +
+  labs(x = "", y = "", 
+       title = "Other Vacancy Status",
+       subtitle = "Memphis, TN (2021)",
+       caption = "ACS 1-Year, 2021 (B25130)")
+```
+
+### Vacancy Duration
+
+```{r}
+vd <- acs1_multi %>% 
+  filter(str_detect(variable, "B25131(?!_001)")) %>% 
+  mutate(lab = fct_inorder(lab))
+
+vd %>% ggplot(aes(y = lab, 
+                   x = estimate)) +
+  geom_col() +
+  scale_x_continuous(labels = scales::label_number(scale = .001, suffix = "K")) +
+  scale_y_discrete(limits = rev) +
+  theme_minimal() +
+  labs(x = "", y = "", 
+       title = "Vacancy Duration",
+       subtitle = "Memphis, TN (2021)",
+       caption = "ACS 1-Year, 2021 (B25131)")
+```
