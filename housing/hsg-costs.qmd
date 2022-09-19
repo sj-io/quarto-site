@@ -1,5 +1,5 @@
 ---
-title: "Variables Overview"
+title: "Housing Costs"
 execute: 
   echo: false
   warning: false
@@ -11,9 +11,8 @@ library(tidyverse)
 
 ```{r}
 v_acs1_21 <- read_csv("../_data/v_acs1.csv")
-acs1 <- read_csv("../_data/acs1_single.csv") %>% 
-  mutate(yr = as.numeric(yr))
-inflation <- read_csv("../_data/inflation.csv")
+acs1 <- read_csv("../_data/acs1_single.csv")
+inflation <- read_csv("../_data/inflation/inflation.csv")
 ```
 
 ## Median Value

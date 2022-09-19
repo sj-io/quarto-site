@@ -1,59 +1,30 @@
+# Adding categories to census variables
 library(tidyverse)
 library(tidycensus)
 
-# ACS 1-Year
-y_ACS1 <- c(2005:2019, 2021)
-names(y_ACS1) <- y_ACS1
+# Load categories csv
+v_cat <- read_csv("_data/v_acs_categories.csv")
 
-# Get variables
+# Get census variables
+v_acs1_21 <- read_csv("_data/v_acs1.csv")
 v_acs1_21 <- load_variables(2021, "acs1")
-write_csv(v_acs1_21, "_data/v_acs1.csv")
 
-# Reuse variables
-v_acs1 <- read_csv("_data/v_acs1.csv")
+# Join
+v_acs1_cat <- v_acs1_21 %>% 
+  mutate(v_start = str_extract_all(name, "^[:alnum:]{3}")) %>% 
+  unnest(v_start) %>% 
+  left_join(v_cat) %>% 
+  select(category, concept, name, label)
 
-# Single variable for Memphis
-acs1 <- map_dfr(y_ACS1, ~ {
-  get_acs(
-    geography = "place",
-    state = "TN",
-    variables = "B25092_001",
-    year = .x,
-    survey = "acs1"
-  )
-}, .id = "yr") %>%
-  filter(str_detect(NAME, "Memphis"))
+# Playing around with variables
+# Top-level variables
+top <- v_acs1_21 %>% 
+  filter(str_ends(name, "_001")) %>% 
+  select(-label)
 
-acs <- read_csv("_data/acs1_single.csv")
-acs <- rbind(acs, acs1)
-write_csv(acs, "_data/acs1_single.csv")
+short <- top %>% 
+  filter(!str_ends(name, "\\D_001"))
 
-# Adjust for inflation
-# Source: https://data.bls.gov/timeseries/SUUR0000SA0
-CCPIU <- read_csv("_data/C-CPI-U.csv") %>% 
-  filter(Period == "M06" &
-           Year > 2004 &
-           !str_detect(Year, "202(0|2)")) %>% 
-  mutate(Value = str_remove_all(Value, "\\(U\\)"),
-         CCPIU = as.numeric(Value))
-
-# Source: https://fred.stlouisfed.org/series/PCEPI/
-PCEPI <- read_csv("_data/PCEPI.csv")
-
-inflation <- PCEPI %>% 
-  filter(str_detect(DATE, "-06-") & 
-           DATE > "2004-06-01" &
-           !str_detect(DATE, "202(0|2)")) %>% 
-  bind_cols(CCPIU) %>% 
-  select(DATE, PCEPI, CCPIU) %>% 
-  mutate(yr = y_ACS1)
-
-write_csv(inflation, "_data/inflation.csv")
-
-# Source: https://fred.stlouisfed.org/series/PCE
-PCE <- read_csv("_data/PCE.csv")
-
-# Playing with variables
 # Over cleaning
 t1 <- v_acs1_21 %>% 
   mutate(simple = str_remove_all(concept, "IN (PUERTO RICO|THE UNITED STATES)"),

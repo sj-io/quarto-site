@@ -8,9 +8,9 @@ website:
       background: dark
       contents: 
         - index.qmd
-        - section: "Basics"
+        - section: "Housing"
           contents: 
-            - basics/variables.qmd
+            - housing/hsg-costs.qmd
 
 format:
   html:
